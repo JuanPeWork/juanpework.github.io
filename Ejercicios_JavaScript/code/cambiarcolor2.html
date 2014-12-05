@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cambiar color 2 JuanPedro</title>
+</head>
+<body>
+	<script>
+
+	window.onload=function(){
+		var boton=document.getElementById('btn');
+		boton.onclick = function cambiarColor(){
+
+			var colores = parent.frames[0].document.forms[0].color;
+			var marc = parent.frames[0].document.forms[0].marcos;
+
+			var colorselec = colores.options[colores.selectedIndex].value;
+			idFrame = marc.options[marc.selectedIndex].value;
+
+
+			window.parent.frames[idFrame].document.bgColor = colorselec;
+		}		
+	}
+		
+		</script>
+		<form>
+		<input type="Button" value="Cambiar Color" id="btn">
+		</form>	
+</body>
+</html>

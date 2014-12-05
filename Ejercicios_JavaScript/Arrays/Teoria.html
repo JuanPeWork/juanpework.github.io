@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Teoría Arrays</title>
+</head>
+<body style = "font-family: verdana;">
+	<h1>Array</h1>
+	<h3>Distintas formas de crear un array</h3>
+	<p>Existen dos formas de crear un array:</p>
+	<p>var vector = new Array();</p>
+	<p>var vector = [ ];</p>
+	<p>En los dos casos estamos creando un array sin longitud. Podemos establecer la longitud de nuestro array pero hay que tener en cuenta que estas posiciones estarían vacias:</p>
+	<p>var vector = new Array(5);</p>
+	<p>Es más recomendable la creación del array sin el new.</p>
+
+	<h3>Distintos tipos de arrays</h3>
+	<p>Hay dos tipos de arrays:</p>
+	<ul>
+		<li><u>Array paralelos:</u> los arrays paralelos utilizan el mismo índice para referirse a términos similares, es decir, pueden recorrerse en el mismo bucle.</li>
+		<li><u>Array multidimensionales:</u> Más conocidos como matrices, consiste en un array que contiene otros array. La dimesion de cada uno representan las filas y las columnas. A la hora de recorrer el array para mostrar los valores de cada uno de los arrays que contiene se debe hacer con el uso de dos bucles.</li>
+	</ul>
+
+	<h3>Distintas formas de eliminar elementos de un array</h3>
+	<p>Hay dos formas de eliminar datos de un array:</p>
+	<ul>
+		<li><u>splice():</u> este operador es el más recomendado. Con el podemos indicar la posición a partir de la cual comenzará a eliminar, donde dejara de eliminar y los elementos que deseamos añadir después de eliminar los elementos.</li>
+		<img src="imagenes/splice.png">
+		<li><u>delete():</u>Este operador nos elimina el contenido de la posición especificada, pero el inconveniente es que nos deja la posición vacía.</li>
+		<img src="imagenes/delete.png">
+	</ul>
+
+	<h3>Distintas formas de añadir elementos a un array</h3>
+	<ol>
+		<li>Rellenando un array previamente creado:</li>
+		<img src="imagenes/addarray1.png">
+		<li>Desde el contructor:</li>
+		<img src="imagenes/addarray2.png">
+		<li>Definicion de un array de forma literal:</li>
+		<img src="imagenes/addarray3.png">
+		<li>Array Mixto: Referenciamos las posiciones con índices de tipo texto o números, mezclándolos de forma aleatoria:</li>
+		<img src="imagenes/addarray4.png">
+		<p>Para acceder al contenido de este tipo de array se realiza del siguiente modo:</p>
+		<img src="imagenes/addarray5.png">
+	</ol>
+
+	<h3>Distintas formas de recorrer un array</h3>
+		<ul>
+		<li>For:</li>
+		<img src="imagenes/for.png">
+		<li>While:</li>
+		<img src="imagenes/while.png">
+		<li>For each: </li>
+		<img src="imagenes/foreach.png">
+	</ul>
+
+	<h3>Otros métodos no vistos (concat(), sort(), reverse()...)</h3>
+	<ul>
+		<li><u>Concat:</u> Devuelve una concatenación de dos arrays:</li>
+		<img src="imagenes/concat.png" >
+		<li><u>Reverse:</u> Invierte el orden de un array</li>
+		<img src="imagenes/reverse.png">
+		<li><u>Sort:</u> ordena los elementos de un array pero tiene un inconveniente, trata a los elementos como cadenas.</li>
+		<img src="imagenes/sort.png">
+	</ul>
+
+</body>
+</html> 

@@ -1,0 +1,85 @@
+/******Hoja de estilos de indexGatito.html y las ventanas generadas****/
+body{
+	background: url("../images/fondogatito.jpg");
+}
+#newbody{
+	background: url("../images/catblackwhite.jpg");
+}
+
+ #imgs, #divimg{
+	margin: 10px auto;
+	width: 150px;
+	height: 100px; 
+}
+body, #newbody{
+	
+	background-size: 100% 150%;
+	background-repeat: no-repeat;
+	font-family: verdana;
+	margin: 0px;
+	padding: 0px;
+
+}
+#newh1{
+	color: #FFDB0F;
+}
+h1{
+	color: #EE4D28;
+}
+
+
+#principal{
+	background: url("../images/fondoprincipal.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin:10px auto;
+	border: 2px solid black;
+	padding: 10px;
+	width: 600px;
+	height: 650px;
+	box-shadow: 0px 0px 20px black;
+	border-radius: 10px 10px 10px 10px;
+}
+
+input, select{
+	border-radius: 5px 5px 5px 5px;
+	margin: 5px;
+	font-size: 17px;
+	background: white;
+	border: 1px groove white;
+	box-shadow: 0px 0px 5px black;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	padding: 10px;
+	font-family: verdana;
+	font-weight: bold;
+
+}
+label{
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFDB0F;
+}
+table{
+	border: 2px solid #525447;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #2D96FF;
+	margin: 30px auto;
+	box-shadow: 5px 5px 15px black;
+	transform: translate(-40px, 0px);
+}
+
+td{
+	font-weight: bold;
+	border:2px groove #0080FF;
+	border-radius: 5px 5px 5px 5px;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	margin: 2px;
+	background-color: white;
+}
+#error{
+	color: #B00000;
+	font-weight: bold;
+}

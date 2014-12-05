@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--Implementa el juego “Adivínalo”. Consiste en que el usuario ha de adivinar un número 
+entre el 1 y el 100. Mostrará un mensaje:
+a. Para indicar si has acertado (en una nueva ventana)
+b. Para indicar si la solución es mayor o es menor.
+Al finalizar, se le preguntará al usuario si quiere repetir el juego.-->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<title>Ejercicio 1 Listado JuanPedro</title>
+		<script type="text/javascript" src="js/Listadocodigo1.js"></script>
+
+</head>
+<body onload="jugar()">
+		<noscript>
+				<p>	La página que estás viendo requiere para su funcionamiento el uso de JavaScript.
+				Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo.
+					</br>
+					<a href="https://support.google.com/adsense/answer/12654?hl=es">Activar Java en tu explorador</a>
+				</p>
+		</noscript>
+	
+	<h2>Juego Adivínalo</h2>
+	
+	<form name="form" action="javascript:adivina()">
+		<label for="num">Introduce un número del 1 al 100:</label>
+		<input type="number" name="num" id="num" min="1" max="100">
+		<input type="submit" value="Enviar" id="btn">
+	</form>
+	<p id="msj"></p>
+
+</body>
+</html>

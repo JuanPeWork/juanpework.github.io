@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Capa 1</title>
+  <circle id="svg_1" r="43.317966" cy="49.909085" cx="50.306817" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" stroke="#000000" fill="#005fbf"/>
+  <circle id="svg_2" r="17.126369" cy="27.659088" cx="28.931818" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" stroke="#000000" fill="#ffffff"/>
+  <circle id="svg_3" r="17.126369" cy="29.159088" cx="72.181818" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" stroke="#000000" fill="#ffffff"/>
+  <circle id="svg_4" r="4.422952" cy="26.909088" cx="28.681818" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" stroke="#000000" fill="#000000"/>
+  <circle id="svg_5" r="4.422952" cy="27.909088" cx="72.181818" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" stroke="#000000" fill="#000000"/>
+  <ellipse ry="18.375" rx="10.5" id="svg_6" cy="66.034088" cx="49.431818" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" stroke="#bf0000" fill="#ff5656"/>
+ </g>
+</svg>

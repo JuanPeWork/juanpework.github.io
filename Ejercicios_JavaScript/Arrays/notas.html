@@ -1,0 +1,75 @@
+<!--Crea la página notas.html que almacene en un array x notas,
+siendo x la dimensión elegida por el usuario.
+Las notas se inicializarán de forma aleatoria con enteros entre 0 y 10.
+Se visualizarán las notas resultantes y la media de las mismas.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio1</title>
+	<script type="text/javascript" src="js/codigo1.js"></script>
+	<style type="text/css">
+		body{
+			font-family: verdana;
+			background-color: #BCBEB1;
+		}
+		h1{
+			color: white;
+		}
+		#contenido{
+			text-align: center;
+			background-color: #2D96FF;
+			margin:10px auto;
+			border: 2px solid black;
+			padding: 10px;
+			width: 500px;
+			height: 250px;
+			box-shadow: 0px 0px 10px black;
+		}
+		table{
+			border: 2px solid #525447;
+			border-radius: 5px 5px 5px 5px;
+			background-color: #2D96FF;
+			margin: 30px auto;
+			box-shadow: 5px 5px 15px black;
+		}
+		.first{
+			background-color: #53A9FF;
+		}
+		td{
+			border:2px groove #0080FF;
+			border-radius: 5px 5px 5px 5px;
+			width: 35px;
+			height: 35px;
+			text-align: center;
+			margin: 2px;
+			background-color: white;
+		}
+		#matrices{
+			margin: 100px auto;
+			text-align: center;
+		}
+		input{
+			border-radius: 5px 5px 5px 5px;
+			margin: 5px;
+			font-size: 15px;
+			background: white;
+			border: 1px groove white;
+			box-shadow: 0px 0px 5px black;
+			-webkit-border-radius: 5px 5px 5px 5px;
+			padding: 10px;
+		}
+
+	</style>
+</head>
+<body style = "font-family: verdana;">
+	<div id="contenido">
+		<h1>Notas</h1><br>
+		<label for="dim"><b>Introduzca la dimensión del array<b></label><br>
+		<input type="number" name="dim" id="dim" min="0" max="10"><br>
+		<input type="button" value="Enviar" id="btn">		
+	</div>
+	<div id="resultado"></div>
+
+</body>
+</html>
