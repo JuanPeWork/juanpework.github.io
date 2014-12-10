@@ -44,10 +44,11 @@ window.onload = function(){
 					}
 				tabla += '<td>'+cols[j]+'</td>';
 			}
-			
+				
 			tabla+="</tr>";
 		}
-		tabla+="</table> <p>"+mayor+"</p><p>"+menor+"</p>";
+		tabla+="<tr><td colspan=\""+columnas.value"+\"><p>Mayor"+mayor+"</p><p>"+menor+"</p></td></tr>";
+		tabla+="</table>";
 		resultado.innerHTML = tabla;
 	}
 
