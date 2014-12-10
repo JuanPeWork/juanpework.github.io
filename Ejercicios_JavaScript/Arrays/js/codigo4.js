@@ -27,8 +27,8 @@ window.onload = function(){
 		for (var i = 0; i < fila.value; i++) {
 			tabla="<tr>";
 			for (var j = 0; j <columna.value; j++) {
-				c1[i][j] = Math.floor((Math.random() * 11) + 1);
-				tabla += "<td>"+c1[i][j]+"</td>"
+				f1[i][j] = Math.floor((Math.random() * 11) + 1);
+				tabla += "<td>"+f1[i][j]+"</td>"
 			};
 			tabla="</tr>";
 		};
@@ -37,8 +37,8 @@ window.onload = function(){
 		for (var i = 0; i < fila.value; i++) {
 			tabla="<tr>";
 			for (var j = 0; j <columna.value; j++) {
-				c2[i][j] = Math.floor((Math.random() * 11) + 1);
-				tabla += "<td>"+c2[i][j]+"</td>"
+				f2[i][j] = Math.floor((Math.random() * 11) + 1);
+				tabla += "<td>"+f2[i][j]+"</td>"
 			};
 			tabla="</tr>";
 		};
@@ -48,7 +48,7 @@ window.onload = function(){
 			tabla="<tr>";
 			for (var j = 0; j <columna.value; j++) {
 				/*sumar matrices y mostrar*/
-				suma = c1[i][j] + c2[i][j];
+				suma = f1[i][j] + f2[i][j];
 				tabla += "<td>"+suma+"</td>"
 				suma=0;
 			};
