@@ -7,14 +7,15 @@
 
 window.onload = function(){
 	
-	var fila, columna, boton;
+	var fila, columna, boton, resultado;
 
 	fila = document.getElementById("fil");
 	columna = document.getElementById("col");
 	boton = document.getElementById("btn");
+	resultado = document.getElementById("result");
 
 	boton.onclick = function(){
-		var f1 = [], f2 = [], c1 = [], c2 = [], suma;
+		var f1 = [], f2 = [], c1 = [], c2 = [], suma=0,tabla="";
 
 		boton.disabled = true;
 
@@ -22,29 +23,40 @@ window.onload = function(){
 			f1[i] = c1[columna.value];
 			f2[i] = c2[columna.value];
 		};
-
+		tabla +="<table>";
 		for (var i = 0; i < fila.value; i++) {
-			
+			tabla="<tr>";
 			for (var j = 0; j <columna.value; j++) {
-				c1[j] = Math.floor((Math.random() * 11) + 1);
-				c2[j] = Math.floor((Math.random() * 11) + 1);
-				/*sumar matrices y mostrar*/
-				suma = c1[j] + c2[j];
-				procesaDatos("p", "Fila: "+i+". Columna: "+j+". Valor 1: "+c1[j]+" + "+c2[j]+" = "+suma);
+				c1[i][j] = Math.floor((Math.random() * 11) + 1);
+				tabla += "<td>"+c1[i][j]+"</td>"
 			};
-
+			tabla="</tr>";
 		};
-	
-	}
-
-	function procesaDatos(etiqueta, texto){//Función para la creación de nuevos nodos
-				var nodo, contenido;
-
-				nodo = document.createElement(etiqueta);
-				contenido = document.createTextNode(texto);
-				nodo.appendChild(contenido);
-				document.body.appendChild(nodo);
-
+		tabla += "</table>";
+		tabla +="<table>";
+		for (var i = 0; i < fila.value; i++) {
+			tabla="<tr>";
+			for (var j = 0; j <columna.value; j++) {
+				c2[i][j] = Math.floor((Math.random() * 11) + 1);
+				tabla += "<td>"+c2[i][j]+"</td>"
+			};
+			tabla="</tr>";
+		};
+		tabla += "</table>";
+		tabla += "<table>";
+		for (var i = 0; i < fila.value; i++) {
+			tabla="<tr>";
+			for (var j = 0; j <columna.value; j++) {
+				/*sumar matrices y mostrar*/
+				suma = c1[i][j] + c2[i][j];
+				tabla += "<td>"+suma+"</td>"
+				suma=0;
+			};
+			tabla="</tr>";
+		};
+		tabla += "</table>";
+		
+		resultado.innerHTML = tabla;
 	}
 
 }
