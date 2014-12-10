@@ -4,8 +4,61 @@
 	<meta charset="UTF-8">
 	<title>Ejercicio 4</title>
 	<script type="text/javascript" src="js/codigo4.js" ></script>
+	<style type="text/css">
+		body{
+			font-family: verdana;
+			background-color: #BCBEB1;
+		}
+		h1{
+			color: white;
+		}
+		#contenido{
+			text-align: center;
+			background-color: #2D96FF;
+			margin:10px auto;
+			border: 2px solid black;
+			padding: 10px;
+			width: 500px;
+			height: 450px;
+			box-shadow: 0px 0px 10px black;
+		}
+		table{
+			border: 2px solid #525447;
+			border-radius: 5px 5px 5px 5px;
+			background-color: #2D96FF;
+			margin: 30px auto;
+			box-shadow: 5px 5px 15px black;
+		}
+		.first{
+			background-color: #53A9FF;
+		}
+		td{
+			border:2px groove #0080FF;
+			border-radius: 5px 5px 5px 5px;
+			width: 35px;
+			height: 35px;
+			text-align: center;
+			margin: 2px;
+			background-color: white;
+		}
+		#matrices{
+			margin: 100px auto;
+			text-align: center;
+		}
+		input{
+			border-radius: 5px 5px 5px 5px;
+			margin: 5px;
+			font-size: 15px;
+			background: white;
+			border: 1px groove white;
+			box-shadow: 0px 0px 5px black;
+			-webkit-border-radius: 5px 5px 5px 5px;
+			padding: 10px;
+		}
+
+	</style>
 </head>
-<body style = "font-family: verdana;">
+<body>
 
 	<h1>Suma de Matrices</h1>
 	<h3>Tamaño de las Mátrices:</h3>
@@ -15,6 +68,7 @@
 	<label for="col">Introduce las columnas:</label><br>
 	<input type="number" name="col" id="col"><br><br>
 	<input type="button" value="Enviar" id="btn">
+	<div id="result"></div>
 </body>
 
 </html>
