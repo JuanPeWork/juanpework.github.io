@@ -47,7 +47,7 @@ window.onload = function(){
 				
 			tabla+="</tr>";
 		}
-		tabla+="<tr><td colspan=\""+columnas.value"+\"><p>Mayor"+mayor+"</p><p>"+menor+"</p></td></tr>";
+		tabla+="<tr><td colspan=\""+columnas.value+"\"><p>Mayor"+mayor+"</p><p>"+menor+"</p></td></tr>";
 		tabla+="</table>";
 		resultado.innerHTML = tabla;
 	}
