@@ -16,16 +16,21 @@ window.onload = function(){
 
 
 	boton.onclick = function(){
-		var rows=[], cols=[];
+		var rows=[], cols=[], tabla="";
 		boton.disabled = true;
 
 		for (var i = 0; i < filas.value ; i++) {//Creamos el array multidimensional
 			rows[i]=cols[columnas.value];
 		};
 
+		tabla = "<table>";
 		for (var i = 0; i < filas.value; i++){//Recorremos el array general (filas).
-		
+			
+			tabla+="<tr>";
+
 			for (var j = 0; j < columnas.value; j++) {//Recorremos cada posicion del array contenido(columnas).
+				
+
 				cols[j]=(Math.random() * 100);//Introducimos un valor por cada posición.
 					if(i == 0 && j == 0){
 						menor = cols[j];
@@ -36,22 +41,12 @@ window.onload = function(){
 					if(mayor < cols[j]){
 						mayor = cols[j];
 					}
-				procesaDatos("p", "Posición Y: " + i + ". Posición X: " + j + ". Valor: " + cols[j]);
+				tabla += '<td>'+cols[j]+'</td>';
 			}
 			
+			tabla+="</tr>";
 		}
-		procesaDatos("p", "Mayor: " + mayor + ". Menor: "+ menor);
-	}
-
-
-	function procesaDatos(etiqueta, texto){//Función para la creación de nuevos nodos
-				var nodo, contenido;
-
-				nodo = document.createElement(etiqueta);
-				contenido = document.createTextNode(texto);
-				nodo.appendChild(contenido);
-				document.body.appendChild(nodo);
-
+		tabla+="</table> <p>"+mayor+"</p><p>"+menor+"</p>";
 	}
 
 
