@@ -8,11 +8,13 @@
  */
 
 window.onload = function(){
-	var filas, columnas, boton, mayor=0, menor;
+	var filas, columnas, boton, resultado, mayor=0, menor;
 
 	columnas = document.getElementById("dimx");
 	filas = document.getElementById("dimy");
 	boton = document.getElementById("btn");
+	resultado = document.getElementById("result");
+	
 
 
 	boton.onclick = function(){
@@ -46,6 +48,7 @@ window.onload = function(){
 			tabla+="</tr>";
 		}
 		tabla+="</table> <p>"+mayor+"</p><p>"+menor+"</p>";
+		resultado.innerHTML = tabla;
 	}
 
 
