@@ -17,7 +17,6 @@ window.onload = function(){
 
 	boton.onclick = function(){
 		var rows=[], cols=[], tabla="";
-		boton.disabled = true;
 
 		for (var i = 0; i < filas.value ; i++) {//Creamos el array multidimensional
 			rows[i]=cols[columnas.value];
