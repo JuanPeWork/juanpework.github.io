@@ -134,7 +134,7 @@ window.onload = function(){
 			}
 		}
 		function comprobarTarjetaCredito(){
-			var validarTarjeta = new RegExp("^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|3[47][0-9]{13})$");
+			var validarTarjeta = new RegExp("^(\d{4}[- ]){3}\d{4}|\d{16}$");
 			var correct = validarTarjeta.test(intarjeta.value);
 
 			if(!correct){
