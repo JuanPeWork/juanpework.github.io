@@ -15,11 +15,11 @@ window.onload = function(){
 	resultado = document.getElementById("result");
 
 	boton.onclick = function(){
-		var f1 = [], f2 = [], c1 = [], c2 = [], suma=0,tabla="";
+		var f1 = [], f2 = [], suma=0,tabla="";
 
 		for (var i = 0; i < fila.value; i++) {
-			f1[i] = c1[columna.value];
-			f2[i] = c2[columna.value];
+			f1[i] = new Array(columna.value);
+			f2[i] = new Array(columna.value);
 		};
 		tabla +="<table>";
 		for (var i = 0; i < fila.value; i++) {
