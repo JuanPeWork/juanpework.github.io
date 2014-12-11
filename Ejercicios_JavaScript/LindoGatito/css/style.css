@@ -82,4 +82,6 @@ td{
 #error{
 	color: #F90000;
 	font-weight: bold;
+	padding: 3px;
+	background-color:white;
 }
