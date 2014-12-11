@@ -15,7 +15,7 @@ window.onload = function(){
 	resultado = document.getElementById("result");
 
 	boton.onclick = function(){
-		var f1 = [], f2 = [], suma=0,tabla="";
+		var f1 = [], f2 = [], suma=0,tabla="<p>Prueba</p>";
 
 		for (var i = 0; i < fila.value; i++) {
 			f1[i] = new Array(columna.value);
@@ -30,7 +30,7 @@ window.onload = function(){
 			};
 			tabla="</tr>";
 		};
-		tabla += "</table>";
+		tabla += "</table><br>";
 		tabla +="<table>";
 		for (var i = 0; i < fila.value; i++) {
 			tabla="<tr>";
@@ -40,7 +40,7 @@ window.onload = function(){
 			};
 			tabla="</tr>";
 		};
-		tabla += "</table>";
+		tabla += "</table><br>";
 		tabla += "<table>";
 		for (var i = 0; i < fila.value; i++) {
 			tabla="<tr>";
