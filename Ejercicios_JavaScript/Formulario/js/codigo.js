@@ -138,19 +138,19 @@ window.onload = function(){
 			var correct = validarTarjeta.test(intarjeta.value);
 
 			if(!correct){
-				errtarjet.innerHTML = "Debes introducir un numero de tajeta valido(VISA)";
+				errtarj.innerHTML = "Debes introducir un numero de tajeta valido(VISA)";
 				intarjeta.style.border="3px solid red";
 				return false;
 			}
 			else{
-				errtarjet.innerHTML = "";
+				errtarj.innerHTML = "";
 				intarjeta.style.border = "2px solid green";
 				return true;
 			}
 		}
 		
 		function comprobarUrl(){
-			var validarUrl = new RegExp("/((([A-Za-z]{3,9}:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[\w]*))?)/");
+			var validarUrl = new RegExp("/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/");
 			var correct = validarUrl.test(inurl.value);
 			/*Ejemplos:
 			www.google.com
