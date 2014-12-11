@@ -124,7 +124,7 @@ window.onload = function(){
 		error = document.getElementById('msgError');
 
 		botonCrear.onclick = function(){
-			if(!controlDimesiones()){
+			if(!controlDimensiones()){
 				error.innerHTML = "Los valores intorducidos debem ser numeros";
 			}
 			else{
