@@ -35,6 +35,7 @@ window.onload = function(){
 	 	erremail = document.getElementById('Errorcorreo'),
 	 	errdni = document.getElementById('Errordni'),
 	 	errfecha = document.getElementById('Errorfecha'),
+	 	errtarj = document.getElementById('Errortarjeta'),
 	 	errtlf = document.getElementById('Errortelefono'),
 	 	errurl = document.getElementById('Errorweb'),
 	 	errsexo = document.getElementById('Errorsexo'),
@@ -129,11 +130,48 @@ window.onload = function(){
 				return true;
 			}
 		}
+		function comprobarTarjetaCredito(){
+			var validarTarjeta = new RegExp("^4[0-9]{12}(?:[0-9]{3})?$");
+			var correct = validarTarjeta.test(intarjeta.value);
+
+			if(!correct){
+				errtarjet.innerHTML = "Debes introducir un numero de tajeta valido(VISA)";
+				intarjeta.style.border="3px solid red";
+				return false;
+			}
+			else{
+				errtarjet.innerHTML = "";
+				intarjeta.style.border = "2px solid green";
+				return true;
+			}
+		}
+		
+		function comprobarUrl(){
+			var validarUrl = new RegExp("/((([A-Za-z]{3,9}:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[\w]*))?)/");
+			var correct = validarUrl.test(inurl.value);
+			/*Ejemplos:
+			www.google.com
+			http://www.google.com
+			mailto: somebody@google.com
+			somebody@google.com
+			www.url-with-querystring.com/?url=has-querystring*/
+			if(!correct){
+				errurl.innerHTML = "Debes introducir una url válida";
+				inurl.style.border="3px solid red";
+				return false;
+			}
+			else{
+				errurl.innerHTML = "";
+				inurl.style.border = "2px solid green";
+				return true;
+			}
+		}
+		
 		eventosListener();
 
 		enviar.onclick = function(){
 			/*Falta cambiar mover el foco al primer campo que muestre el error con focus();*/
-			if(comprobarNombre() && comprobarEmail() && comprobarDni() && comprobarFecha() && comprobarTelefono()){
+			if(comprobarNombre() && comprobarEmail() && comprobarDni() && comprobarFecha() && comprobarTelefono() && comprobarTarjetaCredito() && comprobarUrl()){
 				alert("Formulario Correcto");
 			}
 			else{
