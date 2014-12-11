@@ -125,7 +125,7 @@ window.onload = function(){
 
 		botonCrear.onclick = function(){
 			if(!controlDimensiones()){
-				error.innerHTML = "Los valores intorducidos debem ser numeros";
+				error.innerHTML = "Los valores introducidos deben ser numeros";
 			}
 			else{
 				 matriz1 = new Arr(filas1.value, columnas1.value);
@@ -147,7 +147,7 @@ window.onload = function(){
 			if(matricesCreadas()){
 				var resultadoSum = matriz1.sumar(matriz2);
 				if(!coincidenDimesiones()){
-					error.innerHTML = "Las dimesiones de las matrices deben ser iguales";
+					error.innerHTML = "Las dimensiones de las matrices deben ser iguales";
 				}
 				else{
 					error.innerHTML = "";
