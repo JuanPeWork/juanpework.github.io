@@ -15,42 +15,42 @@ window.onload = function(){
 	resultado = document.getElementById("result");
 
 	boton.onclick = function(){
-		var f1 = [], f2 = [], suma=0,tabla="<p>Prueba</p>";
+		var f1 = [], f2 = [], suma=0,tabla="";
 
 		for (var i = 0; i < fila.value; i++) {
 			f1[i] = new Array(columna.value);
 			f2[i] = new Array(columna.value);
 		};
-		tabla +="<table>";
+		tabla +="<h3>Matriz 1</h3><table>";
 		for (var i = 0; i < fila.value; i++) {
-			tabla="<tr>";
+			tabla +="<tr>";
 			for (var j = 0; j <columna.value; j++) {
 				f1[i][j] = Math.floor((Math.random() * 11) + 1);
 				tabla += "<td>"+f1[i][j]+"</td>"
 			};
-			tabla="</tr>";
+			tabla +="</tr>";
 		};
 		tabla += "</table><br>";
-		tabla +="<table>";
+		tabla +="<h3>Matriz 2</h3><table>";
 		for (var i = 0; i < fila.value; i++) {
-			tabla="<tr>";
+			tabla+="<tr>";
 			for (var j = 0; j <columna.value; j++) {
 				f2[i][j] = Math.floor((Math.random() * 11) + 1);
 				tabla += "<td>"+f2[i][j]+"</td>"
 			};
-			tabla="</tr>";
+			tabla +="</tr>";
 		};
 		tabla += "</table><br>";
-		tabla += "<table>";
+		tabla += "<h3>Suma</h3><table>";
 		for (var i = 0; i < fila.value; i++) {
-			tabla="<tr>";
+			tabla+="<tr>";
 			for (var j = 0; j <columna.value; j++) {
 				/*sumar matrices y mostrar*/
 				suma = f1[i][j] + f2[i][j];
 				tabla += "<td>"+suma+"</td>"
 				suma=0;
 			};
-			tabla="</tr>";
+			tabla+="</tr>";
 		};
 		tabla += "</table>";
 		
