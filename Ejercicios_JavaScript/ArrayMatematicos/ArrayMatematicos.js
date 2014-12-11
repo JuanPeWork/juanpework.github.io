@@ -124,17 +124,22 @@ window.onload = function(){
 		error = document.getElementById('msgError');
 
 		botonCrear.onclick = function(){
-			 matriz1 = new Arr(filas1.value, columnas1.value);
-			 matriz2 = new Arr(filas2.value, columnas2.value);
+			if(!controlDimesiones()){
+				error.innerHTML = "Los valores intorducidos debem ser numeros";
+			}
+			else{
+				 matriz1 = new Arr(filas1.value, columnas1.value);
+			 	matriz2 = new Arr(filas2.value, columnas2.value);
 
-			if(datosIntroducidos()){
-				mostrarTabla.innerHTML = matriz1.mostrar();
-				mostrarTabla.innerHTML += matriz2.mostrar();
-				mostrarMult.innerHTML = "";
-				mostrarSum.innerHTML = "";
-				mostrarRes.innerHTML = "";
-				mostrarTras.innerHTML = "";
-				mostrarTras2.innerHTML = "";
+				if(datosIntroducidos()){
+					mostrarTabla.innerHTML = matriz1.mostrar();
+					mostrarTabla.innerHTML += matriz2.mostrar();
+					mostrarMult.innerHTML = "";
+					mostrarSum.innerHTML = "";
+					mostrarRes.innerHTML = "";
+					mostrarTras.innerHTML = "";
+					mostrarTras2.innerHTML = "";
+				}	
 			}
 
 		}
