@@ -152,12 +152,6 @@ window.onload = function(){
 		function comprobarUrl(){
 			var validarUrl = new RegExp("/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/");
 			var correct = validarUrl.test(inurl.value);
-			/*Ejemplos:
-			www.google.com
-			http://www.google.com
-			mailto: somebody@google.com
-			somebody@google.com
-			www.url-with-querystring.com/?url=has-querystring*/
 			if(!correct){
 				errurl.innerHTML = "Debes introducir una url válida";
 				inurl.style.border="3px solid red";
