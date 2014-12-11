@@ -134,7 +134,7 @@ window.onload = function(){
 			}
 		}
 		function comprobarTarjetaCredito(){
-			var validarTarjeta = new RegExp("^((4\d{3})|(5[1-5]\d{2}))(-?|\040?)(\d{4}(-?|\040?)){3}|^(3[4,7]\d{2})(-?|\040?)\d{6}(-?|\040?)\d{5}");
+			var validarTarjeta = new RegExp("^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|3[47][0-9]{13})$");
 			var correct = validarTarjeta.test(intarjeta.value);
 
 			if(!correct){
@@ -150,7 +150,7 @@ window.onload = function(){
 		}
 		
 		function comprobarUrl(){
-			var validarUrl = new RegExp("((mailto\:|(news|(ht|f)tp(s?))\://){1}\S+)");
+			var validarUrl = new RegExp("^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$");
 			var correct = validarUrl.test(inurl.value);
 			if(!correct){
 				errurl.innerHTML = "Debes introducir una url válida ejemplo:http://www.prueba.com";
