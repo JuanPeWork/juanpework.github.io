@@ -49,8 +49,8 @@ window.onload = function(){
 	 		indni.addEventListener("blur", function(){comprobarDni()}, false);
 	 		infecha.addEventListener("blur", function(){comprobarFecha()}, false);
 	 		intelefono.addEventListener("blur", function(){comprobarTelefono()}, false);
-	 		intelefono.addEventListener("blur", function(){comprobarTarjetaCredito()}, false);
-	 		intelefono.addEventListener("blur", function(){comprobarUrl()}, false);
+	 		intarjeta.addEventListener("blur", function(){comprobarTarjetaCredito()}, false);
+	 		inurl.addEventListener("blur", function(){comprobarUrl()}, false);
 	 		
 	 	}
 
