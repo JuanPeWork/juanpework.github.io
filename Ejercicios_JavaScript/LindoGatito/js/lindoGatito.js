@@ -87,8 +87,7 @@ window.onload = function(){
 	 	error = document.getElementById('error');
 
 	boton.onclick = function(){
-		var nac = "'"+fechaNac.value+"'";
-		var fechaNacimiento = new Date(nac);
+		var fechaNacimiento = new Date(fechaNac.value);
 		console.log(fechaNacimiento);
 		if (nombre.value == "") {
 			error.innerHTML="Debes introducir un nombre";
