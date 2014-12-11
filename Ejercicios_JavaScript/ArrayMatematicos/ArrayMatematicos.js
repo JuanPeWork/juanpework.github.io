@@ -139,6 +139,7 @@ window.onload = function(){
 					mostrarRes.innerHTML = "";
 					mostrarTras.innerHTML = "";
 					mostrarTras2.innerHTML = "";
+					mostrarTabla.focus();
 				}	
 			}
 
@@ -152,7 +153,8 @@ window.onload = function(){
 				else{
 					error.innerHTML = "";
 					mostrarSum.innerHTML = '<h3>Suma</h3>'; 
-					mostrarSum.innerHTML += resultadoSum.mostrar();					
+					mostrarSum.innerHTML += resultadoSum.mostrar();	
+					mostrarSum.focus();
 				}
 			}
 		}
@@ -166,7 +168,8 @@ window.onload = function(){
 				else{
 					error.innerHTML = "";
 					mostrarRes.innerHTML = '<h3>Resta</h3>';
-					mostrarRes.innerHTML += resultadoRes.mostrar();					
+					mostrarRes.innerHTML += resultadoRes.mostrar();
+					mostrarRes.focus();
 				}
 			}			
 		}
@@ -181,7 +184,8 @@ window.onload = function(){
 					error.innerHTML = '';
 					var resultadoMult = matriz1.multiplicar(matriz2);
 					mostrarMult.innerHTML = '<h3>Multiplicación</h3>';
-					mostrarMult.innerHTML += resultadoMult.mostrar();	
+					mostrarMult.innerHTML += resultadoMult.mostrar();
+					mostrarMult.focus();
 				}
 			}
 
@@ -192,6 +196,7 @@ window.onload = function(){
 				var resultadoTras = matriz1.trasponer();
 				mostrarTras.innerHTML = '<h3>Traspuesta Matriz 1</h3>'
 				mostrarTras.innerHTML += resultadoTras.mostrar();
+				mostrarTras.focus();
 			}
 		}
 		btnTrasponer2.onclick = function(){
@@ -199,6 +204,7 @@ window.onload = function(){
 				var resultadoTras2 = matriz2.trasponer();
 				mostrarTras2.innerHTML = '<h3>Traspuesta Matriz 2</h3>'
 				mostrarTras2.innerHTML += resultadoTras2.mostrar();
+				mostrarTras2.focus();
 			}	
 		}
 
