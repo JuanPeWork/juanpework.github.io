@@ -205,6 +205,7 @@ window.onload = function(){
 				mostrarTras2.innerHTML = '<h3>Traspuesta Matriz 2</h3>'
 				mostrarTras2.innerHTML += resultadoTras2.mostrar();
 				mostrarTras2.focus();
+				window.location.hash = '#traspuesta2';
 			}	
 		}
 
