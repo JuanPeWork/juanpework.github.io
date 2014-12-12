@@ -253,10 +253,10 @@ window.onload = function(){
 		}
 		function controlDimensiones(){
 			if(isNaN(filas1.value) && isNaN(columnas1.value) && isNaN(filas2.value) && isNaN(columnas2.value)){
-				return true;
+				return false;
 			}
 			else{
-				return false;
+				return true;
 			}
 		}
 }
