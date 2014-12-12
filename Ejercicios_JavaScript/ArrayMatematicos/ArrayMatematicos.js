@@ -186,6 +186,7 @@ window.onload = function(){
 					mostrarMult.innerHTML = '<h3>Multiplicación</h3>';
 					mostrarMult.innerHTML += resultadoMult.mostrar();
 					mostrarMult.focus();
+					mostrarMult.scrollIntoView();
 				}
 			}
 
