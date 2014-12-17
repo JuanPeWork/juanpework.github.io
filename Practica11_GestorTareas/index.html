@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>JuanPedro Adamuz Canales</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="principal">
+		<header>
+			<div id="logo">
+				<object data="Images/agenda.svg" type="image/svg+xml"></object>
+			</div>
+			<h1>Gestor de tareas</h1>
+			<nav>
+				<ul>
+					<li id="extremoizq"><a href="#"><div id="tarea"></div> Todas las tareas</a></li><!--
+					--><li><a href="formulario.html"><canvas id="myCanvas" width="20px" height="20px"></canvas> Nueva tarea</a></li><!--
+					--><li id="extremoder"><a href="#"><div id="ajustes"></div> Ajustes</a></li>
+				</ul>
+			</nav>
+		</header>	
+	<div id="contenido">
+		<section id="izq" class="menulateral">
+			<aside>
+				<h3>Acceso rápido</h3>
+				<ul>
+					<li><a href="#">Tareas completadas</a></li>
+					<li><a href="#">Tareas próximas completadas</a></li>
+					<li><a href="#">Tareas pendientes anteriores</a></li>
+					<li><a href="#">Tareas próximas pendientes</a></li>
+					<li><a href="#">Todas las tareas</a></li>
+				</ul>
+			</aside>
+			<div class="busqueda">
+				<h3>Mostrar un día</h3>
+				<input type="date" name="fecha" id="fecha">
+				<input type="submit" value="Mostrar">		
+			</div>
+		</section>
+		
+		<section id="noticias">
+			<div id="titulo">
+				<h3>Tareas</h3>
+			</div>
+			<div id="enlace">
+				<a href="#">Tareas pendientes</a>
+				<span>|</span>
+				<a href="#">Tareas completadas</a>
+			</div>
+			<article>
+				<div class="encabezado">
+					<div id="img"></div>
+					<div class="titulotarea">
+					<h4>Realizar blog personal</h4>
+					<h5>DIW</h5>
+
+				</div>
+				</div>
+				<div class="tiempo">
+					<time>10/11/2014</time>
+				</div>
+				<div class="descripcion">
+					<p>Crea un blog en html5 y css3 desde cero, como hemos visto en clase, cumpliendo los siguientes requisitos:<br>
+					- Aplicando correctamente las etiquetas html5, estructura y semántica. 	Debe ser diferente al blog que hemos creado en clase.<br>
+					- Debes implementar en el blog los estilos aprendidos.<br>
+					- Debe aparecer información sobre ti, con tu foto<br></p>
+					
+				<div class="opciones">
+					<a href="#">Completar tarea</a>
+					<span>|</span>
+					<a href="#">Modificar tarea</a>
+					<span>|</span>
+					<a href="#">Eliminar tarea</a>						
+				</div>
+
+				</div>
+			</article>
+
+			<article>
+				<div class="encabezado">
+					<div id="img"></div>
+					<div class="titulotarea">
+						<h4>Realizar Listado Básico 1</h4>
+						<h5>DWEC</h5>
+					</div>
+				</div>
+				<div class="tiempo">
+					<time>06/12/2014</time>
+				</div>
+				<div class="descripcion">
+					<p>Realiza los ejercicios de ListadoJavaScriptBasico1 y entrégalo con el siguiente formato.Evita utilizar los métodos alert y prompt().Deberás crear nuevas página, utilizar botones dinámicos, modificar contenidos, añadir contenidos, leer de una caja de texto...</p>
+					<div class="opciones">
+						<a href="#">Completar tarea</a>
+						<span>|</span>
+						<a href="#">Modificar tarea</a>
+						<span>|</span>
+						<a href="#">Eliminar tarea</a>						
+					</div>
+				</div>
+			</article>
+
+			<article>
+				<div class="encabezado">
+					<div id="img"></div>
+					<div class="titulotarea">
+						<h4>Práctica 9: Instalación de Tomcat</h4>
+						<h5>DESPL. WEB</h5>
+					</div>
+				</div>
+				<div class="tiempo">
+					<time>10/11/2014</time>
+				</div>
+				<div class="descripcion">
+					<p>Instalación de un servidor Apache con soporte para jsp y servlets mediante el uso de Tomcat.  Tomcat es un contenedor de servlets para aplicaciones Java.En esta práctica comenzaremos por instalar Tomcat y comprobar su correcto funcionamiento. En futuras prácticas lo integraremos con el servidor web Apache.Una vez instalado usaremos la herramienta de gestión de Tomcat (manager).</p>
+					
+					<div class="opciones">
+						<a href="#">Completar tarea</a>
+						<span>|</span>
+						<a href="#">Modificar tarea</a>
+						<span>|</span>
+						<a href="#">Eliminar tarea</a>						
+					</div>
+				</div>
+			</article>
+		</section>
+
+		<section id="der" class="menulateral">
+			<div id="foto"></div>
+			<div id="user">
+				<p>JuanPedro</p>
+				<span>|</span>
+				<a href="#">Desconectar</a>
+			</div>
+
+			<h3>Opciones</h3>
+			<aside>
+				<ul>
+					<li><a href="#">Eliminar completadas</a></li>
+					<li><a href="#">Eliminar varias tareas</a></li>
+					<li><a href="#">Descargar tareas</a></li>
+					<li><a href="#">Marcar todas como completadas</a></li>
+					<li><a href="#">Eliminar todas las tareas</a></li>
+				</ul>
+			</aside>
+			<div class="busqueda">
+				<h3>Buscar</h3>
+				<input type="text" name="busqueda" id="busqueda">
+				<input type="submit" value="Buscar">	
+			</div>
+		</section>
+		
+	</div>
+	<footer>
+			<p>Práctica 11-JuanPedro Adamuz Canales</p>
+			<script src="canvas/nuevatarea.js" type="text/javascript"></script>
+	</footer>
+	</div>
+</body>
+</html>

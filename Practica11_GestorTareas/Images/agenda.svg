@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g display="inline">
+  <title>libro</title>
+  <rect id="svg_43" height="109" width="97" y="17.681824" x="28.590912" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="#7fff00"/>
+  <rect id="svg_75" height="100.999996" width="83.000008" y="22.833337" x="35.499997" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#ffffff" fill="#ffffff"/>
+  <rect id="svg_76" height="97" width="85.000001" y="26.833337" x="35.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#ffffff" fill="#ffffff"/>
+  <rect id="svg_77" height="95.999994" width="84.999996" y="28.833337" x="34.500002" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#cccccc" fill="#ffffff"/>
+  <rect id="svg_79" height="0" width="1" y="53.833333" x="-157.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="#f24236"/>
+  <path d="m28.5,19.83333l6.5,7.042213l0,106.124456l-8,-7.861069l1.5,-105.305601z" id="svg_81" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="#7fff00"/>
+  <line id="svg_92" y2="34.333333" x2="131.333333" y1="22.333333" x1="118.333333" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#ffffff" fill="none"/>
+  <rect id="svg_78" height="108" width="95.000014" y="26.833333" x="35.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="#7fff00"/>
+  <ellipse ry="30.000002" rx="31.000001" id="svg_93" cy="67.333338" cx="83.333332" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#007fff" fill="#bfbfbf"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_103" y="76.333333" x="95.333332" opacity="0.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#007fff" fill="#000000"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_104" y="48.333333" x="88.333332" opacity="0.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#007fff" fill="#000000"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_105" y="81.333333" x="66.333332" opacity="0.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#007fff" fill="#000000"/>
+  <rect id="svg_106" height="5" width="34" y="53.333333" x="66.333332" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#bf0000" fill="#bf0000"/>
+  <rect id="svg_107" height="28" width="4" y="58.333333" x="81.333333" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#bf0000" fill="#bf0000"/>
+  <rect transform="rotate(44.11861038208008 109.33332824707036,101.83333587646482) " id="svg_108" height="68.999999" width="14" y="67.333333" x="102.333331" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#7f7f7f" fill="#7f0000"/>
+  <rect transform="rotate(43.63607406616211 124.83332824707033,95.83333587646484) " id="svg_109" height="29" width="3" y="81.333333" x="123.333332" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#7f7f7f" fill="#cccccc"/>
+  <rect transform="rotate(46.6365966796875 136.33331298828125,74.33332824707031) " ry="1" rx="1" id="svg_110" height="3.75845" width="9.181906" y="72.45411" x="131.742373" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="9" stroke="#7f7f7f" fill="#cccccc"/>
+  <path id="svg_111" d="m73.333328,138.333328l6.666672,-15.333328l9,9l-15.666672,6.333328z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" stroke="#7f7f7f" fill="#cccccc"/>
+ </g>
+ <g display="inline">
+  <title>anillas</title>
+  <ellipse ry="3" rx="9.5" id="svg_50" cy="21.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_51" ry="3" rx="9.5" cy="27.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_52" ry="3" rx="9.5" cy="33.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_53" ry="3" rx="9.5" cy="21.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_54" ry="3" rx="9.5" cy="39.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_55" ry="3" rx="9.5" cy="45.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_56" ry="3" rx="9.5" cy="51.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_57" ry="3" rx="9.5" cy="39.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_58" ry="3" rx="9.5" cy="57.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_59" ry="3" rx="9.5" cy="63.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_60" ry="3" rx="9.5" cy="69.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_61" ry="3" rx="9.5" cy="57.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_62" ry="3" rx="9.5" cy="75.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_63" ry="3" rx="9.5" cy="81.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_64" ry="3" rx="9.5" cy="87.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_65" ry="3" rx="9.5" cy="75.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_66" ry="3" rx="9.5" cy="93.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_67" ry="3" rx="9.5" cy="99.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_68" ry="3" rx="9.5" cy="105.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_69" ry="3" rx="9.5" cy="111.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_70" ry="3" rx="9.5" cy="99.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_71" ry="3" rx="9.5" cy="117.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_72" ry="3" rx="9.5" cy="123.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_73" ry="3" rx="9.5" cy="129.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_74" ry="3" rx="9.5" cy="117.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <ellipse id="svg_82" ry="3" rx="9.5" cy="129.833334" cx="25" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="3" stroke="#000000" fill="none"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_94" y="97.333333" x="-83.666668" opacity="0.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_95" y="156.333333" x="-122.666668" opacity="0.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_96" y="88.333333" x="-145.666668" opacity="0.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_97" y="92.333333" x="-223.666668" opacity="0.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_98" y="128.333333" x="-137.666668" opacity="0.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_100" y="62.333333" x="72.333332" opacity="0.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#bf0000" fill="#000000"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_101" y="149.333333" x="-55.666668" opacity="0.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#bf0000" fill="#000000"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_102" y="175.333333" x="-29.666668" opacity="0.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#bf0000" fill="#000000"/>
+ </g>
+</svg>
