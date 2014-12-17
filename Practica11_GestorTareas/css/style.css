@@ -239,7 +239,7 @@ input{
 	border: 1px solid black;
 	padding: 5px;
 }
-#texto{
+.texto{
 	width: 50%;
 }
 input[type=submit]{
