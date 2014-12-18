@@ -162,7 +162,7 @@ window.onload = function(){
 			}
 		}
 		mostrar.onclick = function(){
-			nuevaVentanaCookies();
+			crearVentanaCookie();
 		}
 
 		//Creacion de Cookies
@@ -187,26 +187,23 @@ window.onload = function(){
     		expires.setTime(expires.getTime() + 31536000000);
     		cookie = nombre + "=" + valor + "; expires=" + expires.toUTCString();
     		document.cookie = cookie;
-    		console.log(""+cookie+"");
 		}
 
 		//Funcion Leer Cookies
 		function LeerCookie(nombre){
 			var name = nombre + "="
 			var elementos= document.cookie.split(";");
-
-				for(i in elementos) {
-            	 	var busca = elementos[i].search(nombre);
-             
-	            	if (busca > -1) {
-	            		micookie=elementos[i]
-	            	}
-
-            	}
-         		var igual = micookie.indexOf("=");
-         		var valor = micookie.substring(igual+1);
-         		return valor;
-			}
+			for (var i = 0; i < elementos.length; i++) {
+				var cadena= elementos[i];
+				while(cadena.charAt(0) == ' '){
+					cadena.substring(1);
+					if (cadena.indexOf(name) != -1){
+						return cadena.substring(name.length,cadena.length);
+					};	
+				}
+			};
+			return "";
+		}
 
 		//Funcion Eliminar Cookie
 		function eliminarCookie(nombre){
@@ -215,7 +212,7 @@ window.onload = function(){
 		}
 
 
-		function nuevaVentanaCookies(){
+		function crearVentanaCookie(){
 
 			creacionCookies();
 
@@ -234,7 +231,7 @@ window.onload = function(){
 		    myWindow = window.open('','','width=600, height=500');
 		    myWindow.document.open();
 		    myWindow.document.write(html);
-		    myWindow.document.close(); 
+		    myWindow.document.close();   
  		}
 
 
