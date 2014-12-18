@@ -1,0 +1,41 @@
+body{
+			font-family: verdana;
+			text-align: center;
+}
+h1{
+	color: white;
+}
+#formulario{
+	text-align: center;
+	background-color: #AEAEAE;
+	margin:10px auto;
+	border: 2px solid black;
+	padding: 10px;
+	width: 600px;
+	height: 700px;
+	box-shadow: 0px 0px 10px black;
+	text-align: center;
+}
+
+
+input{
+	border-radius: 5px 5px 5px 5px;
+	margin: 5px;
+	font-size: 15px;
+	background: white;
+	border: 1px groove white;
+	box-shadow: 0px 0px 5px black;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	padding: 5px;
+}
+label{
+	width: 150px;
+	font-weight: bold;
+	padding-left: 20px;
+	display: inline-block;
+}
+.msgError{
+	font-size: 10px;
+	color: #D31217;
+	font-weight: bold;
+}
