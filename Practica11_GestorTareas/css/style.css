@@ -97,6 +97,7 @@ nav ul li a:hover{
 }
 #noticias{
 	background: url(../Images/transparencia.png), rgb(255, 255, 255);
+	border: 1px solid black;
 	border-radius: 10px 10px 10px 10px;
 	display: inline-block;
 	width: 50%;
