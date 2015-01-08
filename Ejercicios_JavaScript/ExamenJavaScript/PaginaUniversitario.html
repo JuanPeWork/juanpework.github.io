@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>JuanPedro</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/universitario.js"></script>
+</head>
+<body>
+	<header>
+		<h1>Examen Diciembre 2012</h1>
+		<h2>Desarrollo Web en Entorno Cliente</h2>	
+	</header>
+	<p>Alta de Universitario</p>
+	<form>
+		<div id="contenido">
+			<table>
+				<tr>
+					<td><label for="nombre">Nombre: </label></td>
+					<td><input type="text" name="nombre" id="nombre"></td>
+				</tr>
+				<tr>
+					<td><label for="priApellido">Primer Apellido: </label></td>
+					<td><input type="text" name="priApellido" id="apell1"></td>
+				</tr>
+				<tr>
+					<td><label for="segApellido">Segundo Apellido: </label></td>
+					<td><input type="text" name="segApellido" id="apell2"></td>
+				</tr>
+				<tr>
+					<td><label for="nacimiento">Fecha Nacimiento: </label></td>
+					<td><input type="date" name="nacimiento" id="fechaNacimiento"></td>
+				</tr>
+				<tr>
+					<td colspan="2"><p id="msgError"></p></td>
+				</tr>
+			</table>	
+		</div>
+		<input type="checkbox" name="acepta" id="acepta">Aceptar condiciones<br>
+		<input type="button" value="Crear" id="crear">
+		<input type="reset" value="Limpiar" id="limpiar">
+	</form>
+</body>
+</html>

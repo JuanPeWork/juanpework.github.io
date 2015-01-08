@@ -187,7 +187,6 @@ window.onload = function(){
     		expires.setTime(expires.getTime() + 31536000000);
     		cookie = nombre + "=" + valor + "; expires=" + expires.toUTCString();
     		document.cookie = cookie;
-    		console.log(""+cookie+"");
 		}
 
 		//Funcion Leer Cookies
