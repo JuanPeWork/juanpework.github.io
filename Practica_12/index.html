@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JuanPedro</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<h1>Casas Rurales</h1>
+		<h2>Encuentra tu casa de descanso</h2>
+		<nav>
+			<ul>
+				<li><a href="#">INICIO</a></li>
+				<li><a href="formulario.html">RESERVA</a></li>
+				<li><a href="#">CONTACTO</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="contenido">
+			<div id="reserva">
+				<div id="caja">
+					<div id="formulario">
+						<h2>Reserva Online</h2>
+						<label for="entrada">Fecha de entrada:</label>
+						<input type="date" name="entrada" id="entrada">
+						<label for="salida">Fecha de salida:</label>
+						<input type="date" name="salida" id="salida">
+						<label for="alojamiento">Tipo de Alojamiento:</label>
+						<select name="alojamiento">
+							<option value="todos">Todos</option>
+							<option value="hoteles">Hoteles</option>
+							<option value="hostales">Hostales</option>
+							<option value="casas">Casas Rurales</option>
+						</select>
+						<input type="button" class="boton" value="Consultar">
+					</div>
+					<div id="imgres"></div>
+				</div>
+			</div>
+		<div id="lista">
+			<section>
+				<article class="izq mediaizq">
+					<h3>Familiar</h3>
+					<div id="img1" class="img"></div>
+					<p>Casa de campo perfecta para ti y tu familia. Máximo 8 personas.</p>
+					<input type="button" class="boton" value="Ver Alojamiento">
+				</article>
+
+				<article>
+					<h3>Dos Personas</h3>
+					<div id="img2" class="img"></div>
+					<p>Rústica y acogedora, para relajarse con la naturaleza. Ideal para parejas.</p>
+					<input type="button" class="boton" value="Ver Alojamiento">
+				</article>
+
+				<article class="mediaizq">
+					<h3>Hotel Campos</h3>
+					<div id="img3" class="img"></div>
+					<p>Hotel con habitaciones hasta de 4 personas. Cuatro estrellas.</p>
+					<input type="button" class="boton" value="Ver Alojamiento">			
+				</article>
+
+				<article class="izq" >
+					<h3>Cuatro Personas</h3>
+					<div id="img4" class="img"></div>
+					<p>Estupenda para desconectar de la rutina y disfrutar de la naturaleza.</p>
+					<input type="button" class="boton" value="Ver Alojamiento">
+				</article>
+
+				<article class="mediaizq">
+					<h3>Hostal</h3>
+					<div id="img5" class="img"></div>
+					<p>Habitaciónes individuales o para dos personas. Tres Estrellas.</p>
+					<input type="button" class="boton" value="Ver Alojamiento">
+				</article>
+
+				<article>
+					<h3>Casa para convivencias</h3>
+					<div id="img6" class="img"></div>
+					<p>Con actividades como senderismo, escalada...Máximo 20 personas.</p>
+					<input type="button" class="boton" value="Ver Alojamiento">
+				</article>
+			</section>
+	  	</div>
+	</div>
+	<footer>
+			<p>España · <a href="#">reserva@casasrurales.com</a> · Aviso Legal · Tlf: 934 743 853</p>
+			<div id="iconos">
+				<i id="twitter"class="fa fa-twitter-square fa-3x"></i>
+				<i id="facebook"class="fa fa-facebook-square fa-3x"></i>
+				<i id="google"class="fa fa-google-plus-square fa-3x"></i>
+			</div>
+	</footer>
+</body>
+</html>

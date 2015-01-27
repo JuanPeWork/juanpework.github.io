@@ -1,4 +1,4 @@
-/**
+trg/**
  * Dinámicamente, realiza las siguientes operaciones en el orden indicado:
  * 	1. Borra el nodo del párrafo “bórrame”
  *  2. Inserta antes de “Apellido del autor” tu nombre dentro de un párrafo
