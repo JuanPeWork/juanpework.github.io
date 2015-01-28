@@ -19,21 +19,50 @@ html,body{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
+@font-face{
+  font-family: MeriendaOne;
+  src: url(../fonts/MeriendaOne.ttf) format('truetype');
+}
 #principal{
-	height: 50%;
-	padding-top: 25%;
+	padding-top: 20%; 
 }
 header{
 	text-align: center;
 }
 h1{
-	font-family: OpenSansBold;
-	margin: 0px;
-	padding: 0px;
+	font-family: MeriendaOne;
+	font-size: 50px;
+	margin-top: 0;
+	color: white;
+	margin: auto;
 }
-#contenido{
-	padding-top: 5%;
+input{
+	width: 25%;
+	margin: auto;
+	display: block;
+	padding: 10px;
+	border: 1px solid #949685;
+	background-color: #597A17;
+	color: white;
+	border-radius: 5px;
+}
+
+input[type="button"]:hover{
+	background-color: #2C3C0B;
 }
 a{
 	font-family: OpenSansRegular;
+}
+.img{
+	width: 30%;
+	height: 300px;
+	background: url(../Images/arbol.png);
+	background-size: 100% 100%;
+	display: block;
+}
+#der{
+	float:right;
+}
+#izq{
+	float: left;
 }
