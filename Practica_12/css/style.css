@@ -62,6 +62,7 @@ nav ul{
 	background: linear-gradient(#FFFFFF, #EFEFEF);
 }
 nav ul li{
+	line-height: 18px;
 	list-style: none;
 	display: inline-block;
 	margin: 0 0; 
@@ -69,7 +70,6 @@ nav ul li{
 nav ul li a{
 	display: inline;
 	color: black;
-	float: left;
 	text-decoration: none;
 	padding: 15px;
 }
