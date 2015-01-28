@@ -590,6 +590,9 @@ form input[type="button"]{
 		margin-left: 0px;
 		margin-right: 0px;
 	}
+	#fin{
+		margin-left: 0px;
+	}
 	article h3{
 		margin: 5px;
 		padding: 0px;
