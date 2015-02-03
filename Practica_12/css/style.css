@@ -264,6 +264,7 @@ form input[type="button"]{
 		margin: 0;
 		background-color: #84BF24;
 		font-family: OpenSansRegular;
+		min-width: 850px;
 	}
 	header{
 		width: 100%;
