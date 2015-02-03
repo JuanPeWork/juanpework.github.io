@@ -392,6 +392,9 @@ form input[type="button"]{
 	.mediaizq{
 		margin-left:4%;
 	}
+	#fin{
+		margin-left: 0px;
+	}
 
 	.img{
 		width: 95%;
@@ -589,9 +592,6 @@ form input[type="button"]{
 	.izq{
 		margin-left: 0px;
 		margin-right: 0px;
-	}
-	#fin{
-		margin-left: 0px;
 	}
 	article h3{
 		margin: 5px;
