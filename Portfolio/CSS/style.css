@@ -1,4 +1,4 @@
-@media all and (min-width: 939px) {
+@media all and (max-width: 645px) {
   html,
   body {
     height: 100%;
@@ -19,9 +19,9 @@
     background: url("../Images/Logo.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 150px;
+    height: 400px;
     margin: 45px auto;
-    width: 150px;
+    width: 400px;
   }
   header p {
     font-size: 18px;
@@ -33,6 +33,7 @@
     text-align: left;
     background-color: #575757;
     width: 100%;
+    height: 10%;
     position: absolute;
     vertical-align: bottom;
     bottom: -1px;
@@ -81,13 +82,12 @@
     padding: 30px 0px;
   }
   main section {
-    width: 939px;
-    margin: 50px auto;
+    width: 100%;
   }
   main section article {
-    margin: 5px;
+    margin: 100px auto;
     width: 300px;
-    display: inline-table;
+    display: block;
   }
   main section article .image {
     width: 290px;
@@ -110,7 +110,6 @@
     padding-top: 1px;
   }
   main section article .image .alpha .hiddenDiv {
-    text-align: center;
     width: 70%;
     height: 25%;
     background-color: #fff;
@@ -123,7 +122,7 @@
   main section article .image .alpha .hiddenDiv p {
     color: #00a9ff;
     padding: 0;
-    margin: 6px 15px;
+    margin: 0;
   }
   main section article .image .alpha:hover {
     background-color: rgba(10,106,186,0.8);
@@ -161,7 +160,7 @@
   }
   main #line {
     width: 100%;
-    height: 100px;
+    height: 75px;
     background-color: #232323;
   }
   main #down article {
@@ -416,7 +415,7 @@
     height: 100px;
   }
 }
-@media all and (max-width: 645px) {
+@media all and (min-width: 939px) {
   html,
   body {
     height: 100%;
@@ -437,9 +436,9 @@
     background: url("../Images/Logo.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 150px;
     margin: 45px auto;
-    width: 400px;
+    width: 150px;
   }
   header p {
     font-size: 18px;
@@ -451,7 +450,6 @@
     text-align: left;
     background-color: #575757;
     width: 100%;
-    height: 10%;
     position: absolute;
     vertical-align: bottom;
     bottom: -1px;
@@ -500,12 +498,13 @@
     padding: 30px 0px;
   }
   main section {
-    width: 100%;
+    width: 939px;
+    margin: 50px auto;
   }
   main section article {
-    margin: 100px auto;
+    margin: 5px;
     width: 300px;
-    display: block;
+    display: inline-table;
   }
   main section article .image {
     width: 290px;
@@ -528,6 +527,7 @@
     padding-top: 1px;
   }
   main section article .image .alpha .hiddenDiv {
+    text-align: center;
     width: 70%;
     height: 25%;
     background-color: #fff;
@@ -540,7 +540,7 @@
   main section article .image .alpha .hiddenDiv p {
     color: #00a9ff;
     padding: 0;
-    margin: 0;
+    margin: 6px 15px;
   }
   main section article .image .alpha:hover {
     background-color: rgba(10,106,186,0.8);
@@ -578,7 +578,7 @@
   }
   main #line {
     width: 100%;
-    height: 75px;
+    height: 100px;
     background-color: #232323;
   }
   main #down article {
