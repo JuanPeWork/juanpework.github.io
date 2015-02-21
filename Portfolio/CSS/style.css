@@ -228,9 +228,9 @@
     background: url("../Images/Logo.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 150px;
+    height: 400px;
     margin: 45px auto;
-    width: 150px;
+    width: 400px;
   }
   header p {
     font-size: 18px;
