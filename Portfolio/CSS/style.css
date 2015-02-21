@@ -636,7 +636,7 @@
   height: 62px;
   z-index: 999;
 }
-@media screen and (max-device-width: 1900px) {
+@media screen and (max-device-width: 800px) {
   html,
   body {
     height: 100%;
