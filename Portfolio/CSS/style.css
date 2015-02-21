@@ -636,7 +636,7 @@
   height: 62px;
   z-index: 999;
 }
-@media screen and (max-device-width: 645px) {
+@media screen and (max-device-width: 1900px) {
   html,
   body {
     height: 100%;
@@ -683,19 +683,17 @@
     margin: 5px 0 5px 15px;
   }
   header nav #menu {
-    border-radius: 100%;
-    position: absolute;
-    display: inline-block;
-    background: #00a9ff url("../Images/menu.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 29px;
-    width: 29px;
-    right: 15px;
-    top: 8px;
+    display: none;
   }
   header nav #logo {
-    display: none;
+    position: absolute;
+    background: url("../Images/Logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    left: 10px;
+    top: 10px;
   }
   header nav ul {
     display: none;
