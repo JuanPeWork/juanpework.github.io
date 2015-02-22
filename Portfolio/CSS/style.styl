@@ -38,6 +38,7 @@ Transition(n)
 			text-align left
 			background-color #575757
 			width 100%
+			height 67px
 			position absolute
 			vertical-align bottom
 			bottom -1px
@@ -46,7 +47,7 @@ Transition(n)
 				display inline-block
 				width 85%
 				padding 0
-				margin 5px 0 5px 15px
+				margin 3.5% 0px 5px 15px
 				
 			#menu
 				border-radius 100%
@@ -55,10 +56,10 @@ Transition(n)
 				background #00A9FF url(../Images/menu.png)
 				background-size 100%
 				background-repeat no-repeat
-				height 29px
-				width 29px
-				right 15px
-				top 8px
+				height 40px
+				width 40px
+				right 3%
+				top 24%
 			#logo
 				display none
 			ul
@@ -68,6 +69,7 @@ Transition(n)
 				padding 0
 				width 100%
 				position absolute
+				top 100%
 				li
 					background-color #D7D7D7
 					width 100%
@@ -83,6 +85,11 @@ Transition(n)
 		width 100%
 		background rgba(155, 155, 155, 0.67)
 		padding 30px 0px
+		#tabs
+			div
+				span
+					color white
+					font-weight bold
 		section
 			width 100%
 			
@@ -105,24 +112,27 @@ Transition(n)
 						opacity 0
 						Transition .6s linear
 						padding-top 1px
+						text-align center
 							
 						.hiddenDiv
 							width 70%
 							height 25%
-							background-color white
-							margin 25% auto
+							background-color #064386
+							margin 25% auto 10% auto
 							border 1px solid black
 							border-radius 5px
-							outline 1px solid #7F7F7F
+							outline 2px solid white
 							outline-offset: -8px
 							p
-								color #00A9FF
+								color white
 								padding 0
-								margin 0
+								margin 18px 15px
 						&:hover
-							background-color rgba(10,106,186,0.8)
-							opacity 1		
-						
+							background-color rgba(0,90,255,.7)
+							opacity 1
+						p
+							color white
+
 				#image1
 					background url(../Images/javascript.png)
 					background-size 100% 100%
@@ -182,6 +192,29 @@ Transition(n)
 		background rgba(0,0,0, 0.85)
 		width 100%
 		height 100px
+	form
+		background-color #393939
+		width 70%
+		margin 20px auto
+		padding 10px
+		
+		input,label,textarea
+			display block
+			width 50%
+			margin 10px auto
+		label
+			color white
+			font-weight bold
+		input,textarea
+			border 1px solid #9C9F8E
+			padding 3px
+			border-radius 5px 5px 5px 5px
+		#fechaInicio, #fechaFin
+			width 25%
+			margin 10px 24.5%
+	#tabs
+		width 70%
+		margin 20px auto
 		
 .fixed
 	position fixed
@@ -263,6 +296,11 @@ Transition(n)
 		width 100%
 		background rgba(155, 155, 155, 0.67)
 		padding 30px 0px
+		#tabs
+			div
+				span
+					color white
+					font-weight bold
 		section
 			width: 625px;
 			margin 50px auto
@@ -284,25 +322,28 @@ Transition(n)
 						opacity 0
 						Transition .6s linear
 						padding-top 1px
+						text-align center
 							
 						.hiddenDiv
 							text-align center
 							width 70%
 							height 25%
-							background-color white
-							margin 25% auto
+							background-color #064386
+							margin 25% auto 10% auto
 							border 1px solid black
 							border-radius 5px
-							outline 1px solid #7F7F7F
+							outline 2px solid white
 							outline-offset: -8px
 							p
-								color #00A9FF
+								color white
 								padding 0
-								margin  6px 15px
+								margin 18px 15px
 
 						&:hover
-							background-color rgba(10,106,186,0.8)
-							opacity 1		
+							background-color rgba(0,90,255,.7)
+							opacity 1
+						p
+							color white		
 						
 				#image1
 					background url(../Images/javascript.png)
@@ -334,6 +375,8 @@ Transition(n)
 			height 100px
 			background-color #232323
 		#down
+			article:last-child
+				margin 0 25%
 			article
 				text-align center
 				.circle
@@ -358,12 +401,37 @@ Transition(n)
 					background url(../Images/contacto.png)
 					background-size 100% 100%
 					background-repeat no-repeat
+				p
+					margin 5px 0
 				
 		
 	footer
 		background rgba(0,0,0, 0.85)
 		width 100%
 		height 100px
+	form
+		background-color #393939
+		width 70%
+		margin 20px auto
+		padding 10px
+		
+		input,label,textarea
+			display block
+			width 50%
+			margin 10px auto
+		label
+			color white
+			font-weight bold
+		input,textarea
+			border 1px solid #9C9F8E
+			padding 3px
+			border-radius 5px 5px 5px 5px
+		#fechaInicio, #fechaFin
+			width 25%
+			margin 10px 24.5%
+	#tabs
+		width 70%
+		margin 20px auto
 		
 @media screen and (min-width:939px)
 
@@ -438,6 +506,11 @@ Transition(n)
 		width 100%
 		background rgba(155, 155, 155, 0.67)
 		padding 30px 0px
+		#tabs
+			div
+				span
+					color white
+					font-weight bold
 		section
 			width: 939px;
 			margin 50px auto
@@ -460,25 +533,28 @@ Transition(n)
 						opacity 0
 						Transition .6s linear
 						padding-top 1px
+						text-align center
 							
 						.hiddenDiv
 							text-align center
 							width 70%
 							height 25%
-							background-color white
-							margin 25% auto
+							background-color #064386
+							margin 25% auto 10% auto
 							border 1px solid black
 							border-radius 5px
-							outline 1px solid #7F7F7F
+							outline 2px solid white
 							outline-offset: -8px
 							p
-								color #00A9FF
+								color white
 								padding 0
-								margin  6px 15px
+								margin 18px 15px
 
 						&:hover
-							background-color rgba(10,106,186,0.8)
-							opacity 1		
+							background-color rgba(0,90,255,.7)
+							opacity 1
+						p
+							color white		
 						
 				#image1
 					background url(../Images/javascript.png)
@@ -540,4 +616,27 @@ Transition(n)
 		background rgba(0,0,0, 0.85)
 		width 100%
 		height 100px
+	form
+		background-color #393939
+		width 70%
+		margin 20px auto
+		padding 10px
+		
+		input,label,textarea
+			display block
+			width 50%
+			margin 10px auto
+		label
+			color white
+			font-weight bold
+		input,textarea
+			border 1px solid #9C9F8E
+			padding 3px
+			border-radius 5px 5px 5px 5px
+		#fechaInicio, #fechaFin
+			width 25%
+			margin 10px 24.5%
+	#tabs
+		width 70%
+		margin 20px auto
 		

@@ -33,6 +33,7 @@
     text-align: left;
     background-color: #575757;
     width: 100%;
+    height: 67px;
     position: absolute;
     vertical-align: bottom;
     bottom: -1px;
@@ -42,7 +43,7 @@
     display: inline-block;
     width: 85%;
     padding: 0;
-    margin: 5px 0 5px 15px;
+    margin: 3.5% 0px 5px 15px;
   }
   header nav #menu {
     border-radius: 100%;
@@ -51,10 +52,10 @@
     background: #00a9ff url("../Images/menu.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 29px;
-    width: 29px;
-    right: 15px;
-    top: 8px;
+    height: 40px;
+    width: 40px;
+    right: 3%;
+    top: 24%;
   }
   header nav #logo {
     display: none;
@@ -66,6 +67,7 @@
     padding: 0;
     width: 100%;
     position: absolute;
+    top: 100%;
   }
   header nav ul li {
     background-color: #d7d7d7;
@@ -84,6 +86,10 @@
     width: 100%;
     background: rgba(155,155,155,0.67);
     padding: 30px 0px;
+  }
+  main #tabs div span {
+    color: #fff;
+    font-weight: bold;
   }
   main section {
     width: 100%;
@@ -112,25 +118,29 @@
     -o-transition: 0.6s;
     transition: 0.6s;
     padding-top: 1px;
+    text-align: center;
   }
   main section article .image .alpha .hiddenDiv {
     width: 70%;
     height: 25%;
-    background-color: #fff;
-    margin: 25% auto;
+    background-color: #064386;
+    margin: 25% auto 10% auto;
     border: 1px solid #000;
     border-radius: 5px;
-    outline: 1px solid #7f7f7f;
+    outline: 2px solid #fff;
     outline-offset: -8px;
   }
   main section article .image .alpha .hiddenDiv p {
-    color: #00a9ff;
+    color: #fff;
     padding: 0;
-    margin: 0;
+    margin: 18px 15px;
   }
   main section article .image .alpha:hover {
-    background-color: rgba(10,106,186,0.8);
+    background-color: rgba(0,90,255,0.7);
     opacity: 1;
+  }
+  main section article .image .alpha p {
+    color: #fff;
   }
   main section article #image1 {
     background: url("../Images/javascript.png");
@@ -208,6 +218,38 @@
     background: rgba(0,0,0,0.85);
     width: 100%;
     height: 100px;
+  }
+  form {
+    background-color: #393939;
+    width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  form input,
+  form label,
+  form textarea {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+  }
+  form label {
+    color: #fff;
+    font-weight: bold;
+  }
+  form input,
+  form textarea {
+    border: 1px solid #9c9f8e;
+    padding: 3px;
+    border-radius: 5px 5px 5px 5px;
+  }
+  form #fechaInicio,
+  form #fechaFin {
+    width: 25%;
+    margin: 10px 24.5%;
+  }
+  #tabs {
+    width: 70%;
+    margin: 20px auto;
   }
 }
 .fixed {
@@ -299,6 +341,10 @@
     background: rgba(155,155,155,0.67);
     padding: 30px 0px;
   }
+  main #tabs div span {
+    color: #fff;
+    font-weight: bold;
+  }
   main section {
     width: 625px;
     margin: 50px auto;
@@ -327,26 +373,30 @@
     -o-transition: 0.6s;
     transition: 0.6s;
     padding-top: 1px;
+    text-align: center;
   }
   main section article .image .alpha .hiddenDiv {
     text-align: center;
     width: 70%;
     height: 25%;
-    background-color: #fff;
-    margin: 25% auto;
+    background-color: #064386;
+    margin: 25% auto 10% auto;
     border: 1px solid #000;
     border-radius: 5px;
-    outline: 1px solid #7f7f7f;
+    outline: 2px solid #fff;
     outline-offset: -8px;
   }
   main section article .image .alpha .hiddenDiv p {
-    color: #00a9ff;
+    color: #fff;
     padding: 0;
-    margin: 6px 15px;
+    margin: 18px 15px;
   }
   main section article .image .alpha:hover {
-    background-color: rgba(10,106,186,0.8);
+    background-color: rgba(0,90,255,0.7);
     opacity: 1;
+  }
+  main section article .image .alpha p {
+    color: #fff;
   }
   main section article #image1 {
     background: url("../Images/javascript.png");
@@ -382,6 +432,9 @@
     width: 100%;
     height: 100px;
     background-color: #232323;
+  }
+  main #down article:last-child {
+    margin: 0 25%;
   }
   main #down article {
     text-align: center;
@@ -420,10 +473,45 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
   }
+  main #down article p {
+    margin: 5px 0;
+  }
   footer {
     background: rgba(0,0,0,0.85);
     width: 100%;
     height: 100px;
+  }
+  form {
+    background-color: #393939;
+    width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  form input,
+  form label,
+  form textarea {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+  }
+  form label {
+    color: #fff;
+    font-weight: bold;
+  }
+  form input,
+  form textarea {
+    border: 1px solid #9c9f8e;
+    padding: 3px;
+    border-radius: 5px 5px 5px 5px;
+  }
+  form #fechaInicio,
+  form #fechaFin {
+    width: 25%;
+    margin: 10px 24.5%;
+  }
+  #tabs {
+    width: 70%;
+    margin: 20px auto;
   }
 }
 @media screen and (min-width: 939px) {
@@ -508,6 +596,10 @@
     background: rgba(155,155,155,0.67);
     padding: 30px 0px;
   }
+  main #tabs div span {
+    color: #fff;
+    font-weight: bold;
+  }
   main section {
     width: 939px;
     margin: 50px auto;
@@ -536,26 +628,30 @@
     -o-transition: 0.6s;
     transition: 0.6s;
     padding-top: 1px;
+    text-align: center;
   }
   main section article .image .alpha .hiddenDiv {
     text-align: center;
     width: 70%;
     height: 25%;
-    background-color: #fff;
-    margin: 25% auto;
+    background-color: #064386;
+    margin: 25% auto 10% auto;
     border: 1px solid #000;
     border-radius: 5px;
-    outline: 1px solid #7f7f7f;
+    outline: 2px solid #fff;
     outline-offset: -8px;
   }
   main section article .image .alpha .hiddenDiv p {
-    color: #00a9ff;
+    color: #fff;
     padding: 0;
-    margin: 6px 15px;
+    margin: 18px 15px;
   }
   main section article .image .alpha:hover {
-    background-color: rgba(10,106,186,0.8);
+    background-color: rgba(0,90,255,0.7);
     opacity: 1;
+  }
+  main section article .image .alpha p {
+    color: #fff;
   }
   main section article #image1 {
     background: url("../Images/javascript.png");
@@ -633,5 +729,37 @@
     background: rgba(0,0,0,0.85);
     width: 100%;
     height: 100px;
+  }
+  form {
+    background-color: #393939;
+    width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  form input,
+  form label,
+  form textarea {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+  }
+  form label {
+    color: #fff;
+    font-weight: bold;
+  }
+  form input,
+  form textarea {
+    border: 1px solid #9c9f8e;
+    padding: 3px;
+    border-radius: 5px 5px 5px 5px;
+  }
+  form #fechaInicio,
+  form #fechaFin {
+    width: 25%;
+    margin: 10px 24.5%;
+  }
+  #tabs {
+    width: 70%;
+    margin: 20px auto;
   }
 }
