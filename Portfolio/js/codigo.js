@@ -30,7 +30,7 @@ $(document).ready(function(){
 	});
 
 	$(window).resize(function() {
-		if($(window).width() < 646) {
+		if($(window).width() <= 628) {
 	    		$('nav ul').css("display", "none");
 		}
 		else{
@@ -39,7 +39,7 @@ $(document).ready(function(){
 	});
 
 	$(window).scroll(function() {
-		if($(this).width() > 646) {
+		if($(this).width() > 628) {
 	    	posicionarMenu();
 		}
 		else{
@@ -61,4 +61,23 @@ $(document).ready(function(){
 	        $('nav').removeClass('fixed');
 	    }
 	}
+
+	//Cola de colores y creacion de tabs
+
+		$("header h1, header h2").click(function(){
+
+			$(this).animate({
+				"color": "#FFAD04"
+			}, 500, "linear");
+			$(this).delay(1000)
+			$(this).animate({
+				"color": "#00A9FF"
+			}, 500, "linear");
+
+		});
+
+		$("#logo").click(function(){
+			$("header h1, header h2").stop(true);
+		});
+
 });

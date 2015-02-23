@@ -1,3 +1,6 @@
+@font-face
+	font-family roboto
+	src url("../fonts/RobotoCondensed-Regular.ttf")
 grayScale(n)
 		-webkit-filter: grayscale(n)
 		-moz-filter: grayscale(n)
@@ -10,10 +13,11 @@ Transition(n)
 		transition: n		
 @media screen and (max-width:645px)
 	html,body
+		font-family roboto
 		height 100%
 		width 100%
 	header
-		background url(../Images/fondo.png)
+		background url(../Images/header.jpeg)
 		background-size cover
 		background-repeat no-repeat
 		background-attachment scroll
@@ -23,17 +27,20 @@ Transition(n)
 		text-align center
 		width 100%
 		#photo
-			background url(../Images/Logo.png)
+			background url(../Images/photo.png)
 			background-size 100%
 			background-repeat no-repeat
-			height 150px
+			height 200px
 			margin 45px auto
-			width 150px
-		p
-			font-size 18px
-			margin auto
-			width 80%
-			padding 0 0 20px 0
+			width 200px
+			border-radius 100%
+			border 4px solid white
+			
+			&:hover
+				border 4px solid #FFAD04
+			
+		h1,h2
+			color white
 		nav
 			text-align left
 			background-color #575757
@@ -85,6 +92,31 @@ Transition(n)
 		width 100%
 		background rgba(155, 155, 155, 0.67)
 		padding 30px 0px
+		#sobremi
+			border 7px solid #00A9FF
+			padding 5px
+			width 90%
+			margin 100px auto
+			background-color #262721 //url(../Images/imagen.png)
+			//background-repeat no-repeat
+			//background-size 32% 54%
+			//background-position 15px 10px
+			text-align justify
+			
+			h3,p
+				width 97%
+			h3
+				margin 10px 5px 5px 5px
+				color #00A9FF
+				font-size 23px
+			p	
+				margin 5px 5px 10px 5px
+				color white
+				font-size 17px
+				
+			&:hover
+				border 7px solid #FFAD04
+
 		#tabs
 			div
 				span
@@ -115,9 +147,9 @@ Transition(n)
 						text-align center
 							
 						.hiddenDiv
-							width 70%
+							width 75%
 							height 25%
-							background-color #064386
+							background-color #022291
 							margin 25% auto 10% auto
 							border 1px solid black
 							border-radius 5px
@@ -126,11 +158,14 @@ Transition(n)
 							p
 								color white
 								padding 0
-								margin 18px 15px
+								margin 5px 15px 0px
+							i
+								color #7D7D7D
 						&:hover
-							background-color rgba(0,90,255,.7)
+							background-color rgba(0,90,255,.8)
 							opacity 1
 						p
+							margin 10px 0px
 							color white
 
 				#image1
@@ -164,34 +199,61 @@ Transition(n)
 		#down
 			article
 				text-align center
-				.circle
-					width 270px
-					height 270px
-					margin auto
-					Transition 1s linear
-					grayScale(100%)
-					&:hover
-						grayScale(0%)
-				#image7
-					background url(../Images/aboutme.png)
-					background-size 100% 100%
-					background-repeat no-repeat
-				
-				#image8
-					background url(../Images/curriculum.png)
-					background-size 100% 100%
-					background-repeat no-repeat
-				
-				#image9
-					background url(../Images/contacto.png)
-					background-size 100% 100%
-					background-repeat no-repeat
-				
+				a
+					color black
+					text-decoration none
+					.circle
+						width 270px
+						height 270px
+						margin auto
+						Transition 1s linear
+						grayScale(100%)
+						&:hover
+							grayScale(0%)
+					#image7
+						background url(../Images/aboutme.png)
+						background-size 100% 100%
+						background-repeat no-repeat
+					
+					#image8
+						background url(../Images/curriculum.png)
+						background-size 100% 100%
+						background-repeat no-repeat
+					
+					#image9
+						background url(../Images/contacto.png)
+						background-size 100% 100%
+						background-repeat no-repeat
+					
 		
 	footer
 		background rgba(0,0,0, 0.85)
 		width 100%
 		height 100px
+		text-align center
+		
+		p
+			color white
+			padding-top 20px
+			margin 5px
+			
+		#iconos
+			margin auto
+			text-align center
+			i
+				color white
+				margin 0px 5px
+				opacity 0.2
+			#twitter:hover
+				opacity 1
+				color #04A6DB
+			#facebook:hover
+				opacity 1
+				color #02309B
+			#github:hover
+				opacity 1
+				color #9F00FF
+		
 	form
 		background-color #393939
 		width 70%
@@ -215,6 +277,7 @@ Transition(n)
 	#tabs
 		width 70%
 		margin 20px auto
+		font-family roboto
 		
 .fixed
 	position fixed
@@ -226,10 +289,11 @@ Transition(n)
 @media screen and (min-width:646px) and (max-width:938px)
 
 	html,body
+		font-family roboto
 		height 100%
 		width 100%
 	header
-		background url(../Images/fondo.png)
+		background url(../Images/header.jpeg)
 		background-size cover
 		background-repeat no-repeat
 		background-attachment scroll
@@ -239,17 +303,19 @@ Transition(n)
 		text-align center
 		width 100%
 		#photo
-			background url(../Images/Logo.png)
+			background url(../Images/photo.png)
 			background-size 100%
 			background-repeat no-repeat
-			height 150px
+			height 200px
 			margin 45px auto
-			width 150px
-		p
-			font-size 18px
-			margin auto
-			width 80%
-			padding 0 0 20px 0
+			width 200px
+			border-radius 100%
+			border 4px solid white
+			
+			&:hover
+				border 4px solid #FFAD04
+		h1,h2
+			color white
 		nav
 			text-align left
 			background-color #575757
@@ -277,14 +343,15 @@ Transition(n)
 				margin 0px
 				padding 0px
 				float right
+				margin-right 20px
 				list-style none
 				display inline
 				
 				li
 					display inline-block
-					margin 30px 20px 0px 0px
+					margin 30px 7px 0px 0px
 					border-bottom 2px solid #575757
-					padding-bottom 10px
+					padding-bottom 8px
 					
 					a
 						width 100%
@@ -296,13 +363,39 @@ Transition(n)
 		width 100%
 		background rgba(155, 155, 155, 0.67)
 		padding 30px 0px
+		#sobremi
+			border 7px solid #00A9FF
+			padding 5px
+			width 600px
+			margin 30px auto
+			background #262721 url(../Images/imagen.png)
+			background-repeat no-repeat
+			background-size 32% 54%
+			background-position 15px 10px
+			text-align justify
+			
+			h3,p
+				width 61%
+			h3
+				margin 10px 0 0 37%
+				color #00A9FF
+				font-size 23px
+			p	
+				margin 5px 0 10px 37%
+				color white
+				font-size 17px
+			#bajo, p:last-child
+				margin 5px 5px 10px 10px
+				width 95%
+			&:hover
+				border 7px solid #FFAD04
 		#tabs
 			div
 				span
 					color white
 					font-weight bold
 		section
-			width: 625px;
+			width 625px
 			margin 50px auto
 			article
 				margin 5px
@@ -326,9 +419,9 @@ Transition(n)
 							
 						.hiddenDiv
 							text-align center
-							width 70%
+							width 75%
 							height 25%
-							background-color #064386
+							background-color #022291
 							margin 25% auto 10% auto
 							border 1px solid black
 							border-radius 5px
@@ -337,12 +430,15 @@ Transition(n)
 							p
 								color white
 								padding 0
-								margin 18px 15px
+								margin 5px 15px 0px
+							i
+								color #7D7D7D
 
 						&:hover
-							background-color rgba(0,90,255,.7)
+							background-color rgba(0,90,255,.8)
 							opacity 1
 						p
+							margin 0px 10px
 							color white		
 						
 				#image1
@@ -379,36 +475,63 @@ Transition(n)
 				margin 0 25%
 			article
 				text-align center
-				.circle
-					width 290px
-					height 290px
-					margin auto
-					Transition 1s linear
-					grayScale(100%)
-					&:hover
-						grayScale(0%)
-				#image7
-					background url(../Images/aboutme.png)
-					background-size 100% 100%
-					background-repeat no-repeat
-				
-				#image8
-					background url(../Images/curriculum.png)
-					background-size 100% 100%
-					background-repeat no-repeat
-				
-				#image9
-					background url(../Images/contacto.png)
-					background-size 100% 100%
-					background-repeat no-repeat
-				p
-					margin 5px 0
+				a
+					color black
+					text-decoration none
+					.circle
+						width 290px
+						height 290px
+						margin auto
+						Transition 1s linear
+						grayScale(100%)
+						&:hover
+							grayScale(0%)
+					#image7
+						background url(../Images/aboutme.png)
+						background-size 100% 100%
+						background-repeat no-repeat
+					
+					#image8
+						background url(../Images/curriculum.png)
+						background-size 100% 100%
+						background-repeat no-repeat
+					
+					#image9
+						background url(../Images/contacto.png)
+						background-size 100% 100%
+						background-repeat no-repeat
+					p
+						margin 5px 0
 				
 		
 	footer
 		background rgba(0,0,0, 0.85)
 		width 100%
 		height 100px
+		text-align center
+		text-align center
+		
+		p
+			color white
+			padding-top 20px
+			margin 5px
+			
+		#iconos
+			margin auto
+			text-align center
+			i
+				color white
+				margin 0px 5px
+				opacity 0.2
+			#twitter:hover
+				opacity 1
+				color #04A6DB
+			#facebook:hover
+				opacity 1
+				color #02309B
+			#github:hover
+				opacity 1
+				color #9F00FF
 	form
 		background-color #393939
 		width 70%
@@ -432,14 +555,16 @@ Transition(n)
 	#tabs
 		width 70%
 		margin 20px auto
+		font-family roboto
 		
 @media screen and (min-width:939px)
 
 	html,body
+		font-family roboto
 		height 100%
 		width 100%
 	header
-		background url(../Images/fondo.png)
+		background url(../Images/header.jpeg)
 		background-size cover
 		background-repeat no-repeat
 		background-attachment scroll
@@ -449,17 +574,19 @@ Transition(n)
 		text-align center
 		width 100%
 		#photo
-			background url(../Images/Logo.png)
+			background url(../Images/photo.png)
 			background-size 100%
 			background-repeat no-repeat
-			height 150px
+			height 200px
 			margin 45px auto
-			width 150px
-		p
-			font-size 18px
-			margin auto
-			width 80%
-			padding 0 0 20px 0
+			width 200px
+			border-radius 100%
+			border 4px solid white
+			
+			&:hover
+				border 4px solid #FFAD04
+		h1,h2
+			color white
 		nav
 			text-align left
 			background-color #575757
@@ -494,7 +621,7 @@ Transition(n)
 					display inline-block
 					margin 30px 20px 0px 0px
 					border-bottom 2px solid #575757
-					padding-bottom 10px
+					padding-bottom 8px
 					
 					a
 						width 100%
@@ -506,13 +633,36 @@ Transition(n)
 		width 100%
 		background rgba(155, 155, 155, 0.67)
 		padding 30px 0px
+		#sobremi
+			border 7px solid #00A9FF
+			padding 5px
+			width 800px
+			margin 30px auto
+			background #262721 url(../Images/imagen.png)
+			background-repeat no-repeat
+			background-size 38% 94%
+			background-position 10px 10px
+			text-align justify
+			
+			h3,p
+				width 50%
+			h3
+				margin 10px 5px 0 45%
+				color #00A9FF
+				font-size 23px
+			p	
+				margin 5px 5px 10px 45%
+				color white
+				font-size 17px
+			&:hover
+				border 7px solid #FFAD04
 		#tabs
 			div
 				span
 					color white
 					font-weight bold
 		section
-			width: 939px;
+			width 939px
 			margin 50px auto
 			article
 				margin 5px
@@ -537,9 +687,9 @@ Transition(n)
 							
 						.hiddenDiv
 							text-align center
-							width 70%
+							width 75%
 							height 25%
-							background-color #064386
+							background-color #022291
 							margin 25% auto 10% auto
 							border 1px solid black
 							border-radius 5px
@@ -548,12 +698,15 @@ Transition(n)
 							p
 								color white
 								padding 0
-								margin 18px 15px
+								margin 5px 15px 0px
+							i
+								color #7D7D7D
 
 						&:hover
-							background-color rgba(0,90,255,.7)
+							background-color rgba(0,90,255,.8)
 							opacity 1
 						p
+							margin 0px 10px
 							color white		
 						
 				#image1
@@ -588,34 +741,60 @@ Transition(n)
 		#down
 			article
 				text-align center
-				.circle
-					width 290px
-					height 290px
-					margin auto
-					Transition 1s linear
-					grayScale(100%)
-					&:hover
-						grayScale(0%)
-				#image7
-					background url(../Images/aboutme.png)
-					background-size 100% 100%
-					background-repeat no-repeat
-				
-				#image8
-					background url(../Images/curriculum.png)
-					background-size 100% 100%
-					background-repeat no-repeat
-				
-				#image9
-					background url(../Images/contacto.png)
-					background-size 100% 100%
-					background-repeat no-repeat
-				
+				a
+					color black
+					text-decoration none
+					.circle
+						width 290px
+						height 290px
+						margin auto
+						Transition 1s linear
+						grayScale(100%)
+						&:hover
+							grayScale(0%)
+					#image7
+						background url(../Images/aboutme.png)
+						background-size 100% 100%
+						background-repeat no-repeat
+					
+					#image8
+						background url(../Images/curriculum.png)
+						background-size 100% 100%
+						background-repeat no-repeat
+					
+					#image9
+						background url(../Images/contacto.png)
+						background-size 100% 100%
+						background-repeat no-repeat
+					
 		
 	footer
 		background rgba(0,0,0, 0.85)
 		width 100%
 		height 100px
+		text-align center
+		
+		p
+			color white
+			padding-top 20px
+			margin 5px
+			
+		#iconos
+			margin auto
+			text-align center
+			i
+				color white
+				margin 0px 5px
+				opacity 0.2
+			#twitter:hover
+				opacity 1
+				color #04A6DB
+			#facebook:hover
+				opacity 1
+				color #02309B
+			#github:hover
+				opacity 1
+				color #9F00FF
 	form
 		background-color #393939
 		width 70%
@@ -639,4 +818,5 @@ Transition(n)
 	#tabs
 		width 70%
 		margin 20px auto
+		font-family roboto
 		

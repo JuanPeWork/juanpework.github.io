@@ -9,21 +9,24 @@
 	<link rel="stylesheet" type="text/css" href="jQueryUI/jquery-ui.theme.min.css">
 	<link rel="stylesheet" type="text/css" href="jQueryUI/jquery-ui.structure.min.css">
 	<link rel="stylesheet" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="CSS/css/font-awesome.min.css">
 	<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
 	<script type="text/javascript" src="jQueryUI/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="jQueryUI/jquery.animate-colors-min.js"></script>
 	<script type="text/javascript" src="js/codigo.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$("#fechaInicio").datepicker();
-			$("#fechaFin").datepicker();
-		});
-
-	</script>
+		//DatePicker
+		$("#fechaInicio").datepicker();
+		$("#fechaFin").datepicker();
+	});
+</script>
 </head>
 <body>
 	<header>
 		<div id="photo"></div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, cupiditate quam dolorem at? Commodi perferendis, magnam suscipit obcaecati, deserunt, ratione ex nobis eum corporis temporibus fugiat hic fuga doloremque debitis.</p>
+		<h1>JuanPedro Adamuz</h1>
+		<h2>Desarrollador y Diseñador Web</h2>
 		
 		<nav>
 			<h2>Menu</h2>
@@ -56,21 +59,32 @@
 
 		<section id="down">
 			<article>
-				<div id="image7" class="circle"></div>
-				<p>SOBRE MÍ</p>
+				<a href="about.html">
+					<div id="image7" class="circle"></div>
+					<p>SOBRE MÍ</p>
+				</a>
 			</article>
 			<article>
-				<div id="image8" class="circle"></div>
-				<p>CURRICULUM</p>
+				<a href="#">
+					<div id="image8" class="circle"></div>
+					<p>CURRICULUM</p>
+				</a>
 			</article>
 			<article>
-				<div id="image9" class="circle"></div>
-				<p>CONTACTO</p>
+				<a href="contacto.html">
+					<div id="image9" class="circle"></div>
+					<p>CONTACTO</p>
+				</a>
 			</article>
 		</section>
 	</main>
 	<footer>
-		
+			<p>· Diseñado por JuanPedro Adamuz Canales ·</p>
+			<div id="iconos">
+				<i id="twitter"class="fa fa-twitter-square fa-3x"></i>
+				<i id="facebook"class="fa fa-facebook-square fa-3x"></i>
+				<i id="github"class="fa fa-github-square fa-3x"></i>
+			</div>
 	</footer>
 </body>
 </html>
