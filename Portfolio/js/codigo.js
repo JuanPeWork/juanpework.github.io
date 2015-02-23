@@ -30,50 +30,20 @@ $(document).ready(function(){
 	});
 
 	$(window).resize(function() {
-
-		if (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows()){
-		 
-			if($(window).width() < 646) {
-		    		$('nav ul').css("display", "none");
-			}
-			else{
-		    	$('nav ul').css("display", "inline");
-			}
-
+		if($(window).width() <= 628) {
+	    		$('nav ul').css("display", "none");
 		}
 		else{
-
-			if($(window).width() <= 628) {
-		    		$('nav ul').css("display", "none");
-			}
-			else{
-		    	$('nav ul').css("display", "inline");
-			}
-
+	    	$('nav ul').css("display", "inline");
 		}
 	});
 
 	$(window).scroll(function() {
-
-		if (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows()){
-		 
-			if($(this).width() > 646) {
-	    		posicionarMenu();
-			}
-			else{
-				$('nav').removeClass('fixed');
-			}
-
+		if($(this).width() > 628) {
+	    	posicionarMenu();
 		}
 		else{
-
-			if($(this).width() > 628) {
-	    		posicionarMenu();
-			}
-			else{
-				$('nav').removeClass('fixed');
-			}
-
+			$('nav').removeClass('fixed');
 		}
 	});
 
