@@ -10,7 +10,7 @@
     width: 100%;
   }
   header {
-    background: url("../Images/header.jpeg");
+    background: url("../Images/header.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -336,7 +336,7 @@
     width: 100%;
   }
   header {
-    background: url("../Images/header.jpeg");
+    background: url("../Images/header.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -666,7 +666,7 @@
     width: 100%;
   }
   header {
-    background: url("../Images/header.jpeg");
+    background: url("../Images/header.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
