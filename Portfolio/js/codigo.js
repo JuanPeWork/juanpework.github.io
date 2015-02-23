@@ -30,7 +30,7 @@ $(document).ready(function(){
 	});
 
 	$(window).resize(function() {
-		if($(window).width() <= 628) {
+		if($(window).innerWidth() <= 645) {
 	    		$('nav ul').css("display", "none");
 		}
 		else{
@@ -39,7 +39,7 @@ $(document).ready(function(){
 	});
 
 	$(window).scroll(function() {
-		if($(this).width() > 628) {
+		if($(this).innerWidth() > 645) {
 	    	posicionarMenu();
 		}
 		else{
