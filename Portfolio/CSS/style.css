@@ -301,23 +301,33 @@
     margin: 10px auto;
   }
   form label {
+    font-size: 20px;
     color: #fff;
     font-weight: bold;
   }
   form input,
   form textarea {
+    background-color: #e2e3df;
     border: 1px solid #9c9f8e;
     padding: 3px;
-    border-radius: 5px 5px 5px 5px;
   }
   form #fechaInicio,
   form #fechaFin {
     width: 25%;
     margin: 10px 24.5%;
   }
+  form #button {
+    background-color: #0254b9;
+    width: 25%;
+    margin: auto;
+    color: #fff;
+  }
+  form #button:hover {
+    background-color: #00a9ff;
+  }
   #tabs {
-    width: 70%;
-    margin: 20px auto;
+    width: 80%;
+    margin: 100px auto;
     font-family: roboto;
   }
 }
@@ -638,23 +648,33 @@
     margin: 10px auto;
   }
   form label {
+    font-size: 20px;
     color: #fff;
     font-weight: bold;
   }
   form input,
   form textarea {
+    background-color: #e2e3df;
     border: 1px solid #9c9f8e;
     padding: 3px;
-    border-radius: 5px 5px 5px 5px;
   }
   form #fechaInicio,
   form #fechaFin {
     width: 25%;
     margin: 10px 24.5%;
   }
+  form #button {
+    background-color: #0254b9;
+    width: 25%;
+    margin: auto;
+    color: #fff;
+  }
+  form #button:hover {
+    background-color: #00a9ff;
+  }
   #tabs {
-    width: 70%;
-    margin: 20px auto;
+    width: 80%;
+    margin: 100px auto;
     font-family: roboto;
   }
 }
@@ -955,23 +975,33 @@
     margin: 10px auto;
   }
   form label {
+    font-size: 20px;
     color: #fff;
     font-weight: bold;
   }
   form input,
   form textarea {
+    background-color: #e2e3df;
     border: 1px solid #9c9f8e;
-    padding: 3px;
-    border-radius: 5px 5px 5px 5px;
+    padding: 7px;
   }
   form #fechaInicio,
   form #fechaFin {
     width: 25%;
     margin: 10px 24.5%;
   }
+  form #button {
+    background-color: #0254b9;
+    width: 25%;
+    margin: auto;
+    color: #fff;
+  }
+  form #button:hover {
+    background-color: #00a9ff;
+  }
   #tabs {
     width: 70%;
-    margin: 20px auto;
+    margin: 100px auto;
     font-family: roboto;
   }
 }
