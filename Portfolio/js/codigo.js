@@ -10,7 +10,10 @@ jQuery.fn.rotate = function(value) {
     return $(this);
 };
 
+
 $(document).ready(function(){
+
+	//mostrar/ocultar ul al hacer click en #menu
 
 	var rotation = false;
 	$("#menu").click(function(){
@@ -28,6 +31,8 @@ $(document).ready(function(){
 
 
 	});
+
+	//mostrar/ocultar ul dependiendo del tamaño de pantalla
 
 	$(window).resize(function() {
 		if($(window).innerWidth() <= 645) {
@@ -47,10 +52,12 @@ $(document).ready(function(){
 		}
 	});
 
+	//Pegar nav al borde superior de la pantalla al pasar header
+
 	function posicionarMenu() {
 
-	    var altheader = $('header').outerHeight(true);
-	    var altmenu = $('nav').outerHeight(true);
+	    var altheader = $('header').innerHeight(true);
+	    var altmenu = $('nav').innerHeight(true);
 
 	    altheader = altheader - altmenu;
 
@@ -80,7 +87,7 @@ $(document).ready(function(){
 			$("header h1, header h2").stop(true);
 		});
 
-		
+
 	//Tabs responsive
 	$(window).resize(function(e){
 		updateUI();
