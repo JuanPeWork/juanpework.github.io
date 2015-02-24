@@ -56,8 +56,8 @@ $(document).ready(function(){
 
 	function posicionarMenu() {
 
-	    var altheader = $('header').outerHeight();
-	    var altmenu = $('nav').outerHeight();
+	    var altheader = $('header').outerHeight(true);
+	    var altmenu = $('nav').outerHeight(true);
 
 	    altheader = altheader - altmenu;
 
