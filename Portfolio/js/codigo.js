@@ -79,6 +79,8 @@ $(document).ready(function(){
 		$("#logo").click(function(){
 			$("header h1, header h2").stop(true);
 		});
+
+		
 	//Tabs responsive
 	$(window).resize(function(e){
 		updateUI();
