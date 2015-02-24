@@ -264,7 +264,7 @@
   footer p {
     color: #fff;
     padding-top: 20px;
-    margin: 5px;
+    margin: 0 5px 5px;
   }
   footer #iconos {
     margin: auto;
@@ -611,7 +611,7 @@
   footer p {
     color: #fff;
     padding-top: 20px;
-    margin: 5px;
+    margin: 0 5px 5px;
   }
   footer #iconos {
     margin: auto;
@@ -938,7 +938,7 @@
   footer p {
     color: #fff;
     padding-top: 20px;
-    margin: 5px;
+    margin: 0 5px 5px;
   }
   footer #iconos {
     margin: auto;
