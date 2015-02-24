@@ -1,3 +1,25 @@
+jQuery.fn.scrollLoad = function(opciones){
+	var conf = {
+		velocity: 1500,
+		load: 500,
+		addPx: 70
+	}
+
+	jQuery.extend(conf, opciones);
+
+
+	var header = $('header').outerHeight(true);
+	header -= conf.addPx;
+
+	$(this).delay(conf.load);
+	$(this).animate({
+ 		scrollTop: header
+ 	}, conf.velocity);
+	
+	return $(this);
+}
+
+
 jQuery.fn.rotate = function(value) {
     
     $(this).animate({deg: value}, {
@@ -12,6 +34,20 @@ jQuery.fn.rotate = function(value) {
 
 
 $(document).ready(function(){
+
+	var url = document.location.href;
+
+	if(url.search("about.html") != -1){
+
+		$("body,html").scrollLoad({
+			velocity: 2000,
+			load: 1000,
+			addPx: 80
+		});
+	}
+	else if(url.search("contacto.html") != -1){
+		$("body,html").scrollLoad();
+	}
 
 	//mostrar/ocultar ul al hacer click en #menu
 
@@ -76,16 +112,19 @@ $(document).ready(function(){
 			$(this).animate({
 				"color": "#FFAD04"
 			}, 500, "linear");
-			$(this).delay(1000)
+			$(this).delay(1000);
 			$(this).animate({
 				"color": "#00A9FF"
 			}, 500, "linear");
-
+			$(this).delay(1000);
+			$(this).animate({
+				"color": "#FFAD04"
+			}, 500, "linear");
 		});
 
 
 		$("#logo").click(function(){
-			$("header h1, header h2").stop(true);
+			$("header h1").stop(true);
 		});
 
 });

@@ -15,8 +15,8 @@
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
-    padding-top: 1px;
     height: 100%;
+    padding-top: 1px;
     text-align: center;
     width: 100%;
   }
@@ -24,11 +24,11 @@
     background: url("../Images/photo.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 150px;
-    margin: 22px auto;
-    width: 150px;
-    border-radius: 100%;
     border: 4px solid #fff;
+    border-radius: 100%;
+    height: 100px;
+    margin: 22px auto;
+    width: 100px;
   }
   header #photo:hover {
     border: 4px solid #ffad04;
@@ -38,32 +38,32 @@
     color: #fff;
   }
   header nav {
-    text-align: left;
     background-color: #575757;
-    width: 100%;
-    height: 67px;
-    position: absolute;
-    vertical-align: bottom;
     bottom: -1px;
+    height: 67px;
     padding-top: 5px;
+    position: absolute;
+    text-align: left;
+    vertical-align: bottom;
+    width: 100%;
   }
   header nav h2 {
     display: inline-block;
-    width: 85%;
-    padding: 0;
     margin: 3.5% 0px 5px 15px;
+    padding: 0;
+    width: 85%;
   }
   header nav #menu {
-    border-radius: 100%;
-    position: absolute;
-    display: inline-block;
     background: #00a9ff url("../Images/menu.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    border-radius: 100%;
+    display: inline-block;
     height: 40px;
-    width: 40px;
+    position: absolute;
     right: 3%;
     top: 24%;
+    width: 40px;
   }
   header nav #logo {
     display: none;
@@ -73,15 +73,15 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 100%;
     position: absolute;
     top: 100%;
+    width: 100%;
   }
   header nav ul li {
     background-color: #d7d7d7;
-    width: 100%;
-    text-align: center;
     padding: 10px 0;
+    text-align: center;
+    width: 100%;
   }
   header nav ul li a {
     color: #000;
@@ -91,31 +91,31 @@
     background-color: #818181;
   }
   main {
-    width: 100%;
     background: rgba(155,155,155,0.67);
     padding: 30px 0px;
+    width: 100%;
   }
   main #sobremi {
-    border: 7px solid #00a9ff;
-    padding: 5px;
-    width: 90%;
-    margin: 100px auto;
     background-color: #262721;
+    border: 7px solid #00a9ff;
+    margin: 100px auto;
+    padding: 5px;
     text-align: justify;
+    width: 90%;
   }
   main #sobremi h3,
   main #sobremi p {
     width: 97%;
   }
   main #sobremi h3 {
-    margin: 10px 5px 5px 5px;
     color: #00a9ff;
     font-size: 23px;
+    margin: 10px 5px 5px 5px;
   }
   main #sobremi p {
-    margin: 5px 5px 10px 5px;
     color: #fff;
     font-size: 17px;
+    margin: 5px 5px 10px 5px;
   }
   main #sobremi:hover {
     border: 7px solid #ffad04;
@@ -128,45 +128,45 @@
     width: 100%;
   }
   main section article {
+    display: block;
     margin: 100px auto;
     width: 280px;
-    display: block;
   }
   main section article .image {
-    width: 270px;
-    height: 270px;
     border: 2px solid #fff;
+    height: 270px;
     margin: auto;
     -webkit-transition: 0.6s;
     -moz-transition: 0.6s;
     -o-transition: 0.6s;
     transition: 0.6s;
+    width: 270px;
   }
   main section article .image .alpha {
-    width: 100%;
     height: 100%;
     opacity: 0;
+    padding-top: 1px;
+    text-align: center;
     -webkit-transition: 0.6s;
     -moz-transition: 0.6s;
     -o-transition: 0.6s;
     transition: 0.6s;
-    padding-top: 1px;
-    text-align: center;
+    width: 100%;
   }
   main section article .image .alpha .hiddenDiv {
-    width: 75%;
-    height: 25%;
     background-color: #022291;
-    margin: 25% auto 10% auto;
     border: 1px solid #000;
     border-radius: 5px;
+    height: 25%;
+    margin: 25% auto 10% auto;
     outline: 2px solid #fff;
     outline-offset: -8px;
+    width: 75%;
   }
   main section article .image .alpha .hiddenDiv p {
     color: #fff;
-    padding: 0;
     margin: 5px 15px 0px;
+    padding: 0;
   }
   main section article .image .alpha .hiddenDiv i {
     color: #7d7d7d;
@@ -176,8 +176,8 @@
     opacity: 1;
   }
   main section article .image .alpha p {
-    margin: 10px 0px;
     color: #fff;
+    margin: 10px 0px;
   }
   main section article #image1 {
     background: url("../Images/javascript.png");
@@ -210,9 +210,9 @@
     background-repeat: no-repeat;
   }
   main #line {
-    width: 100%;
-    height: 75px;
     background-color: #232323;
+    height: 75px;
+    width: 100%;
   }
   main #down article {
     text-align: center;
@@ -222,13 +222,13 @@
     text-decoration: none;
   }
   main #down article a .circle {
-    width: 270px;
     height: 270px;
     margin: auto;
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
+    width: 270px;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -o-filter: grayscale(100%);
@@ -257,14 +257,14 @@
   }
   footer {
     background: rgba(0,0,0,0.85);
-    width: 100%;
     height: 100px;
     text-align: center;
+    width: 100%;
   }
   footer p {
     color: #fff;
-    padding-top: 20px;
     margin: 0 5px 5px;
+    padding-top: 20px;
   }
   footer #iconos {
     margin: auto;
@@ -276,33 +276,33 @@
     opacity: 0.2;
   }
   footer #iconos #twitter:hover {
-    opacity: 1;
     color: #04a6db;
+    opacity: 1;
   }
   footer #iconos #facebook:hover {
-    opacity: 1;
     color: #02309b;
+    opacity: 1;
   }
   footer #iconos #github:hover {
-    opacity: 1;
     color: #9f00ff;
+    opacity: 1;
   }
   form {
     background-color: #393939;
-    width: 70%;
     margin: 20px auto;
     padding: 10px;
+    width: 70%;
   }
   form input,
   form label,
   form textarea {
     display: block;
-    width: 50%;
     margin: 10px auto;
+    width: 50%;
   }
   form label {
-    font-size: 20px;
     color: #fff;
+    font-size: 20px;
     font-weight: bold;
   }
   form input,
@@ -313,29 +313,29 @@
   }
   form #fechaInicio,
   form #fechaFin {
-    width: 25%;
     margin: 10px 24.5%;
+    width: 25%;
   }
   form #button {
     background-color: #0254b9;
-    width: 25%;
-    margin: auto;
     color: #fff;
+    margin: auto;
+    width: 25%;
   }
   form #button:hover {
     background-color: #00a9ff;
   }
   #tabs {
-    width: 80%;
-    margin: 100px auto;
     font-family: roboto;
+    margin: 100px auto;
+    width: 81%;
   }
 }
 .fixed {
+  height: 62px;
+  left: 0;
   position: fixed;
   top: 0;
-  left: 0;
-  height: 62px;
   z-index: 999;
 }
 @media screen and (min-width: 646px) and (max-width: 938px) {
@@ -351,8 +351,8 @@
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
-    padding-top: 1px;
     height: 100%;
+    padding-top: 1px;
     text-align: center;
     width: 100%;
   }
@@ -360,11 +360,11 @@
     background: url("../Images/photo.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    border: 4px solid #fff;
+    border-radius: 100%;
     height: 200px;
     margin: 45px auto;
     width: 200px;
-    border-radius: 100%;
-    border: 4px solid #fff;
   }
   header #photo:hover {
     border: 4px solid #ffad04;
@@ -374,13 +374,13 @@
     color: #fff;
   }
   header nav {
-    text-align: left;
     background-color: #575757;
-    width: 100%;
-    position: absolute;
-    vertical-align: bottom;
     bottom: -1px;
     padding-top: 5px;
+    position: absolute;
+    text-align: left;
+    vertical-align: bottom;
+    width: 100%;
   }
   header nav h2 {
     display: none;
@@ -389,66 +389,66 @@
     display: none;
   }
   header nav #logo {
-    position: absolute;
     background: url("../Images/Logo.png");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 50px;
-    width: 50px;
     left: 10px;
+    position: absolute;
     top: 10px;
+    width: 50px;
   }
   header nav ul {
-    margin: 0px;
-    padding: 0px;
-    float: right;
-    margin-right: 20px;
-    list-style: none;
     display: inline;
+    float: right;
+    list-style: none;
+    margin: 0px;
+    margin-right: 20px;
+    padding: 0px;
   }
   header nav ul li {
+    border-bottom: 2px solid #575757;
     display: inline-block;
     margin: 30px 7px 0px 0px;
-    border-bottom: 2px solid #575757;
     padding-bottom: 8px;
   }
   header nav ul li a {
-    width: 100%;
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
+    width: 100%;
   }
   header nav ul li:hover {
     border-bottom: 2px solid #fff;
   }
   main {
-    width: 100%;
     background: rgba(155,155,155,0.67);
     padding: 30px 0px;
+    width: 100%;
   }
   main #sobremi {
-    border: 7px solid #00a9ff;
-    padding: 5px;
-    width: 600px;
-    margin: 30px auto;
     background: #262721 url("../Images/imagen.png");
+    background-position: 15px 10px;
     background-repeat: no-repeat;
     background-size: 32% 54%;
-    background-position: 15px 10px;
+    border: 7px solid #00a9ff;
+    margin: 30px auto;
+    padding: 5px;
     text-align: justify;
+    width: 600px;
   }
   main #sobremi h3,
   main #sobremi p {
     width: 61%;
   }
   main #sobremi h3 {
-    margin: 10px 0 0 37%;
     color: #00a9ff;
     font-size: 23px;
+    margin: 10px 0 0 37%;
   }
   main #sobremi p {
-    margin: 5px 0 10px 37%;
     color: #fff;
     font-size: 17px;
+    margin: 5px 0 10px 37%;
   }
   main #sobremi #bajo,
   main #sobremi p:last-child {
@@ -463,50 +463,50 @@
     font-weight: bold;
   }
   main section {
-    width: 625px;
     margin: 50px auto;
+    width: 625px;
   }
   main section article {
-    margin: 5px;
-    width: 300px;
     display: inline-table;
+    width: 300px;
+    margin: 5px;
   }
   main section article .image {
-    width: 290px;
-    height: 290px;
     border: 2px solid #fff;
+    height: 290px;
     margin: auto;
     -webkit-transition: 0.6s;
     -moz-transition: 0.6s;
     -o-transition: 0.6s;
     transition: 0.6s;
+    width: 290px;
   }
   main section article .image .alpha {
-    width: 100%;
     height: 100%;
     opacity: 0;
+    padding-top: 1px;
+    text-align: center;
     -webkit-transition: 0.6s;
     -moz-transition: 0.6s;
     -o-transition: 0.6s;
     transition: 0.6s;
-    padding-top: 1px;
-    text-align: center;
+    width: 100%;
   }
   main section article .image .alpha .hiddenDiv {
-    text-align: center;
-    width: 75%;
-    height: 25%;
     background-color: #022291;
-    margin: 25% auto 10% auto;
     border: 1px solid #000;
     border-radius: 5px;
+    height: 25%;
+    margin: 25% auto 10% auto;
     outline: 2px solid #fff;
     outline-offset: -8px;
+    text-align: center;
+    width: 75%;
   }
   main section article .image .alpha .hiddenDiv p {
     color: #fff;
-    padding: 0;
     margin: 5px 15px 0px;
+    padding: 0;
   }
   main section article .image .alpha .hiddenDiv i {
     color: #7d7d7d;
@@ -516,8 +516,8 @@
     opacity: 1;
   }
   main section article .image .alpha p {
-    margin: 0px 10px;
     color: #fff;
+    margin: 0px 10px;
   }
   main section article #image1 {
     background: url("../Images/javascript.png");
@@ -550,9 +550,9 @@
     background-repeat: no-repeat;
   }
   main #line {
-    width: 100%;
-    height: 100px;
     background-color: #232323;
+    height: 100px;
+    width: 100%;
   }
   main #down article:last-child {
     margin: 0 25%;
@@ -565,13 +565,13 @@
     text-decoration: none;
   }
   main #down article a .circle {
-    width: 290px;
     height: 290px;
     margin: auto;
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
+    width: 290px;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -o-filter: grayscale(100%);
@@ -603,15 +603,15 @@
   }
   footer {
     background: rgba(0,0,0,0.85);
-    width: 100%;
     height: 100px;
     text-align: center;
     text-align: center;
+    width: 100%;
   }
   footer p {
     color: #fff;
-    padding-top: 20px;
     margin: 0 5px 5px;
+    padding-top: 20px;
   }
   footer #iconos {
     margin: auto;
@@ -623,33 +623,33 @@
     opacity: 0.2;
   }
   footer #iconos #twitter:hover {
-    opacity: 1;
     color: #04a6db;
+    opacity: 1;
   }
   footer #iconos #facebook:hover {
     opacity: 1;
     color: #02309b;
   }
   footer #iconos #github:hover {
-    opacity: 1;
     color: #9f00ff;
+    opacity: 1;
   }
   form {
     background-color: #393939;
-    width: 70%;
     margin: 20px auto;
     padding: 10px;
+    width: 70%;
   }
   form input,
   form label,
   form textarea {
     display: block;
-    width: 50%;
     margin: 10px auto;
+    width: 50%;
   }
   form label {
-    font-size: 20px;
     color: #fff;
+    font-size: 20px;
     font-weight: bold;
   }
   form input,
@@ -660,22 +660,22 @@
   }
   form #fechaInicio,
   form #fechaFin {
-    width: 25%;
     margin: 10px 24.5%;
+    width: 25%;
   }
   form #button {
     background-color: #0254b9;
-    width: 25%;
-    margin: auto;
     color: #fff;
+    margin: auto;
+    width: 25%;
   }
   form #button:hover {
     background-color: #00a9ff;
   }
   #tabs {
-    width: 80%;
-    margin: 100px auto;
     font-family: roboto;
+    margin: 100px auto;
+    width: 80%;
   }
 }
 @media screen and (min-width: 939px) {
@@ -691,8 +691,8 @@
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
-    padding-top: 1px;
     height: 100%;
+    padding-top: 1px;
     text-align: center;
     width: 100%;
   }
@@ -700,11 +700,11 @@
     background: url("../Images/photo.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    border: 4px solid #fff;
+    border-radius: 100%;
     height: 200px;
     margin: 45px auto;
     width: 200px;
-    border-radius: 100%;
-    border: 4px solid #fff;
   }
   header #photo:hover {
     border: 4px solid #ffad04;
@@ -714,13 +714,13 @@
     color: #fff;
   }
   header nav {
-    text-align: left;
     background-color: #575757;
-    width: 100%;
+    bottom: -1px;
     position: absolute;
     vertical-align: bottom;
-    bottom: -1px;
     padding-top: 5px;
+    text-align: left;
+    width: 100%;
   }
   header nav h2 {
     display: none;
@@ -729,51 +729,51 @@
     display: none;
   }
   header nav #logo {
-    position: absolute;
     background: url("../Images/Logo.png");
-    background-size: 100%;
     background-repeat: no-repeat;
+    background-size: 100%;
     height: 50px;
-    width: 50px;
     left: 10px;
+    position: absolute;
     top: 10px;
+    width: 50px;
   }
   header nav ul {
-    margin: 0px;
-    padding: 0px;
+    display: inline;
     float: right;
     list-style: none;
-    display: inline;
+    margin: 0px;
+    padding: 0px;
   }
   header nav ul li {
+    border-bottom: 2px solid #575757;
     display: inline-block;
     margin: 30px 20px 0px 0px;
-    border-bottom: 2px solid #575757;
     padding-bottom: 8px;
   }
   header nav ul li a {
-    width: 100%;
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
+    width: 100%;
   }
   header nav ul li:hover {
     border-bottom: 2px solid #fff;
   }
   main {
-    width: 100%;
     background: rgba(155,155,155,0.67);
     padding: 30px 0px;
+    width: 100%;
   }
   main #sobremi {
-    border: 7px solid #00a9ff;
-    padding: 5px;
-    width: 800px;
-    margin: 30px auto;
     background: #262721 url("../Images/imagen.png");
     background-repeat: no-repeat;
     background-size: 38% 94%;
     background-position: 10px 10px;
+    border: 7px solid #00a9ff;
+    margin: 30px auto;
+    padding: 5px;
     text-align: justify;
+    width: 800px;
   }
   main #sobremi h3,
   main #sobremi p {
@@ -785,9 +785,9 @@
     font-size: 23px;
   }
   main #sobremi p {
-    margin: 5px 5px 10px 45%;
     color: #fff;
     font-size: 17px;
+    margin: 5px 5px 10px 45%;
   }
   main #sobremi:hover {
     border: 7px solid #ffad04;
@@ -797,50 +797,50 @@
     font-weight: bold;
   }
   main section {
-    width: 939px;
     margin: 50px auto;
+    width: 939px;
   }
   main section article {
+    display: inline-table;
     margin: 5px;
     width: 300px;
-    display: inline-table;
   }
   main section article .image {
-    width: 290px;
-    height: 290px;
     border: 2px solid #fff;
+    height: 290px;
     margin: auto;
     -webkit-transition: 0.6s;
     -moz-transition: 0.6s;
     -o-transition: 0.6s;
     transition: 0.6s;
+    width: 290px;
   }
   main section article .image .alpha {
-    width: 100%;
     height: 100%;
     opacity: 0;
+    padding-top: 1px;
+    text-align: center;
     -webkit-transition: 0.6s;
     -moz-transition: 0.6s;
     -o-transition: 0.6s;
     transition: 0.6s;
-    padding-top: 1px;
-    text-align: center;
+    width: 100%;
   }
   main section article .image .alpha .hiddenDiv {
-    text-align: center;
-    width: 75%;
-    height: 25%;
     background-color: #022291;
-    margin: 25% auto 10% auto;
     border: 1px solid #000;
     border-radius: 5px;
+    height: 25%;
+    margin: 25% auto 10% auto;
     outline: 2px solid #fff;
     outline-offset: -8px;
+    text-align: center;
+    width: 75%;
   }
   main section article .image .alpha .hiddenDiv p {
     color: #fff;
-    padding: 0;
     margin: 5px 15px 0px;
+    padding: 0;
   }
   main section article .image .alpha .hiddenDiv i {
     color: #7d7d7d;
@@ -850,8 +850,8 @@
     opacity: 1;
   }
   main section article .image .alpha p {
-    margin: 0px 10px;
     color: #fff;
+    margin: 0px 10px;
   }
   main section article #image1 {
     background: url("../Images/javascript.png");
@@ -884,9 +884,9 @@
     background-repeat: no-repeat;
   }
   main #line {
-    width: 100%;
-    height: 100px;
     background-color: #232323;
+    height: 100px;
+    width: 100%;
   }
   main #down article {
     text-align: center;
@@ -896,13 +896,13 @@
     text-decoration: none;
   }
   main #down article a .circle {
-    width: 290px;
     height: 290px;
     margin: auto;
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
+    width: 290px;
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -o-filter: grayscale(100%);
@@ -931,14 +931,14 @@
   }
   footer {
     background: rgba(0,0,0,0.85);
-    width: 100%;
     height: 100px;
     text-align: center;
+    width: 100%;
   }
   footer p {
     color: #fff;
-    padding-top: 20px;
     margin: 0 5px 5px;
+    padding-top: 20px;
   }
   footer #iconos {
     margin: auto;
@@ -950,33 +950,33 @@
     opacity: 0.2;
   }
   footer #iconos #twitter:hover {
-    opacity: 1;
     color: #04a6db;
+    opacity: 1;
   }
   footer #iconos #facebook:hover {
-    opacity: 1;
     color: #02309b;
+    opacity: 1;
   }
   footer #iconos #github:hover {
-    opacity: 1;
     color: #9f00ff;
+    opacity: 1;
   }
   form {
     background-color: #393939;
-    width: 70%;
     margin: 20px auto;
     padding: 10px;
+    width: 70%;
   }
   form input,
   form label,
   form textarea {
     display: block;
-    width: 50%;
     margin: 10px auto;
+    width: 50%;
   }
   form label {
-    font-size: 20px;
     color: #fff;
+    font-size: 20px;
     font-weight: bold;
   }
   form input,
@@ -987,21 +987,21 @@
   }
   form #fechaInicio,
   form #fechaFin {
-    width: 25%;
     margin: 10px 24.5%;
+    width: 25%;
   }
   form #button {
     background-color: #0254b9;
-    width: 25%;
-    margin: auto;
     color: #fff;
+    margin: auto;
+    width: 25%;
   }
   form #button:hover {
     background-color: #00a9ff;
   }
   #tabs {
-    width: 70%;
-    margin: 100px auto;
     font-family: roboto;
+    margin: 100px auto;
+    width: 70%;
   }
 }
