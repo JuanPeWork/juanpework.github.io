@@ -56,8 +56,8 @@ $(document).ready(function(){
 
 	function posicionarMenu() {
 
-	    var altheader = $('header').innerHeight(true);
-	    var altmenu = $('nav').innerHeight(true);
+	    var altheader = $('header').outerHeight();
+	    var altmenu = $('nav').outerHeight();
 
 	    altheader = altheader - altmenu;
 
@@ -82,7 +82,7 @@ $(document).ready(function(){
 			}, 500, "linear");
 
 		});
-		
+
 
 		$("#logo").click(function(){
 			$("header h1, header h2").stop(true);
