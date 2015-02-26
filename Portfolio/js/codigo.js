@@ -3,7 +3,7 @@ jQuery.fn.scrollLoad = function(opciones){
 		velocity: 1500,
 		load: 500,
 		addPx: 70
-	}
+	};
 
 	jQuery.extend(conf, opciones);
 
@@ -13,12 +13,11 @@ jQuery.fn.scrollLoad = function(opciones){
 
 	$(this).delay(conf.load);
 	$(this).animate({
- 		scrollTop: header
- 	}, conf.velocity);
+		scrollTop: header
+	}, conf.velocity);
 	
 	return $(this);
-}
-
+};
 
 jQuery.fn.rotate = function(value) {
     
@@ -37,7 +36,7 @@ $(document).ready(function(){
 
 	var url = document.location.href;
 
-	if(url.search("about.html") != -1){
+	if(url.search("about") != -1){
 
 		$("body,html").scrollLoad({
 			velocity: 2000,
@@ -45,8 +44,42 @@ $(document).ready(function(){
 			addPx: 80
 		});
 	}
-	else if(url.search("contacto.html") != -1){
+	else if(url.search("contacto") != -1){
+
 		$("body,html").scrollLoad();
+
+		$.datepicker.regional['es'] = {
+			closeText: 'Cerrar',
+			prevText: '<Ant',
+			nextText: 'Sig>',
+			currentText: 'Hoy',
+			monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+			monthNamesShort: ['Ene','Feb','Mar','Abr', 'May','Jun','Jul','Ago','Sep', 'Oct','Nov','Dic'],
+			dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+			dayNamesShort: ['Dom','Lun','Mar','Mié','Juv','Vie','Sáb'],
+			dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','Sá'],
+			weekHeader: 'Sm',
+			dateFormat: 'dd/mm/yy',
+			firstDay: 1,
+			isRTL: false,
+			showMonthAfterYear: false,
+			yearSuffix: ''
+		};
+
+		$.datepicker.setDefaults($.datepicker.regional['es']);
+
+
+		//DatePicker
+
+		$("#fechaInicio").datepicker({
+			minDate: new Date(),
+			maxDate: "+4d"
+		});
+
+		$("#fechaFin").datepicker({
+			minDate: "+4d",
+			maxDate: "+2w"
+		});
 	}
 
 	//mostrar/ocultar ul al hacer click en #menu
@@ -72,16 +105,16 @@ $(document).ready(function(){
 
 	$(window).resize(function() {
 		if($(window).innerWidth() <= 645) {
-	    		$('nav ul').css("display", "none");
+			$('nav ul').css("display", "none");
 		}
 		else{
-	    	$('nav ul').css("display", "inline");
+			$('nav ul').css("display", "inline");
 		}
 	});
 
 	$(window).scroll(function() {
 		if($(this).innerWidth() > 645) {
-	    	posicionarMenu();
+			posicionarMenu();
 		}
 		else{
 			$('nav').removeClass('fixed');
@@ -92,22 +125,22 @@ $(document).ready(function(){
 
 	function posicionarMenu() {
 
-	    var altheader = $('header').outerHeight(true);
-	    var altmenu = $('nav').outerHeight(true);
+		var altheader = $('header').outerHeight(true);
+		var altmenu = $('nav').outerHeight(true);
 
-	    altheader = altheader - altmenu;
+		altheader = altheader - altmenu;
 
-	    if($(window).scrollTop() >= altheader){
-	        $('nav').addClass('fixed');
-
-	    } else{
-	        $('nav').removeClass('fixed');
-	    }
+		if($(window).scrollTop() >= altheader){
+			$('nav').addClass('fixed');
+		}
+		else{
+			$('nav').removeClass('fixed');
+		}
 	}
 
 	//Cola de colores y creacion de tabs
 
-		$("header h1, header h2").click(function(){
+		$("header h1").click(function(){
 
 			$(this).animate({
 				"color": "#FFAD04"
