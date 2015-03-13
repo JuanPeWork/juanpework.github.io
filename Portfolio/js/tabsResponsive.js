@@ -45,7 +45,7 @@ function tabsToAccordions(){
 	$('.accordion').accordion({active: false, event: "click",collapsible:true, heightStyle: "auto", animate: 350});
 	$('.accordion').css("margin", "100px auto");
 	$('.accordion').css("width", "95%");
-;}
+};
  
 // changes accordions to tabs (jquery ui)
 function accordionsToTabs(){
@@ -69,6 +69,6 @@ function accordionsToTabs(){
 	});
 	$('#tabs').tabs({event: "mouseover click",heightStyle: "auto",show:{effect:"fade",duration: 600}});
 	$('#tabs').css("margin-top", "100px");
-;
-}
+
+};
 });

@@ -104,7 +104,7 @@ $(document).ready(function(){
 	//mostrar/ocultar ul dependiendo del tamaño de pantalla
 
 	$(window).resize(function() {
-		if(screen.innerWidth() <= 645) {
+		if(window.innerWidth <= 645) {
 			$('nav ul').css("display", "none");
 		}
 		else{
@@ -113,7 +113,7 @@ $(document).ready(function(){
 	});
 
 	$(window).scroll(function() {
-		if(screen.innerWidth() > 645) {
+		if(window.innerWidth > 645) {
 			posicionarMenu();
 		}
 		else{
