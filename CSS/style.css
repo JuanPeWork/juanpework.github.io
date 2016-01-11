@@ -5,59 +5,54 @@
 @media screen and (max-width: 645px) {
   html,
   body {
+    min-width: 320px;
     font-family: roboto;
     height: 100%;
     width: 100%;
   }
-  header {
-    background: url("../Images/header.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    height: 100%;
-    padding-top: 1px;
-    text-align: center;
+  header{
+    background-color: #232323;
+    height: 70px;
     width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 1;
   }
-  header #photo {
-    background: url("../Images/photo.JPG");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border: 4px solid #fff;
-    border-radius: 100%;
-    height: 100px;
-    margin: 22px auto;
-    width: 100px;
+
+  nav{
+      text-align: center;
+      font-size: 18px;
   }
-  header #photo:hover {
-    border: 4px solid #ffad04;
-  }
-  header h1,
-  header h2 {
-    color: #fff;
-  }
-  header nav {
-    background-color: #575757;
-    bottom: -1px;
-    height: 67px;
-    padding-top: 5px;
-    position: absolute;
-    text-align: left;
-    vertical-align: bottom;
-    width: 100%;
-  }
-  header nav h2 {
-    display: inline-block;
-    margin: 3.5% 0px 5px 15px;
+  nav ul{
+    display: none;
     padding: 0;
-    width: 85%;
+    z-index: 1;
+    top: 100%;
+    position: absolute;
+    width: 100%;
+    margin: 0px;
   }
-  header nav #menu {
-    background: #00a9ff url("../Images/menu.png");
+  nav ul li{
+    width: 100%;
+    display: inline-block;
+    background: #232323;
+  }
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 70px;
+    width: 100%;
+    height: 100%;
+  }
+  nav ul li a:hover{
+    background: #5A5A5A; 
+    color: #0096FF;
+  }
+  #menu{
+    background: url("../Images/iconmenu.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    border-radius: 100%;
     display: inline-block;
     height: 40px;
     position: absolute;
@@ -65,39 +60,42 @@
     top: 24%;
     width: 40px;
   }
-  header nav #logo {
-    display: none;
-  }
-  header nav ul {
-    display: none;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  #icon{
+    background: url("../Images/logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 50px;
     position: absolute;
-    top: 100%;
-    width: 100%;
+    left: 3%;
+    top: 14%;
+    width: 50px;
   }
-  header nav ul li {
-    background-color: #d7d7d7;
-    padding: 10px 0;
-    text-align: center;
-    width: 100%;
-  }
-  header nav ul li a {
-    color: #000;
-    text-decoration: none;
-  }
-  header nav ul li:hover {
-    background-color: #818181;
+  #logo{
+    display: none;
   }
   main {
-    background: rgba(155,155,155,0.67);
+    background: rgba(105,105,105,0.90);
     padding: 30px 0px;
     width: 100%;
   }
+  #titulo{
+    background: url("../Images/titulo2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 62px;
+    margin: 0 auto; 
+  }
+  #comp{
+    background: url("../Images/comp2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 62px;
+    margin: 0 auto; 
+  }
   main #sobremi {
-    background-color: #262721;
-    border: 7px solid #00a9ff;
     margin: 100px auto;
     padding: 5px;
     text-align: justify;
@@ -109,13 +107,12 @@
     width: 97%;
   }
   main #sobremi h3 {
-    color: #00a9ff;
+    color: #0057E6;
     font-size: 23px;
     margin: 10px 5px 5px 5px;
   }
   main #sobremi p {
-    color: #fff;
-    font-size: 17px;
+    font-size: 19px;
     margin: 5px 5px 10px 5px;
   }
   main #practicas {
@@ -149,9 +146,6 @@
     text-decoration: underline;
     color: #fff;
   }
-  main #sobremi:hover, main #practicas:hover{
-    border: 7px solid #ffad04;
-  }
   main #tabs div span {
     color: #fff;
     font-weight: bold;
@@ -161,7 +155,7 @@
   }
   main section article {
     display: block;
-    margin: 100px auto;
+    margin: 50px auto;
     width: 280px;
   }
   main section article .image {
@@ -297,6 +291,7 @@
     color: #fff;
     margin: 0 5px 5px;
     padding-top: 20px;
+    font-size: 15px;
   }
   footer #iconos {
     margin: auto;
@@ -370,99 +365,83 @@
   top: 0;
   z-index: 999;
 }
-@media screen and (min-width: 646px) and (max-width: 960px) {
+@media screen and (min-width: 646px) and (max-width: 959px) {
   html,
   body {
     font-family: roboto;
     height: 100%;
     width: 100%;
   }
-  header {
-    background: url("../Images/header.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    height: 100%;
-    padding-top: 1px;
-    text-align: center;
+  header{
+    background-color: #232323;
+    height: 70px;
     width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 1;
   }
-  header #photo {
-    background: url("../Images/photo.JPG");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border: 4px solid #fff;
-    border-radius: 100%;
-    height: 200px;
-    margin: 45px auto;
-    width: 200px;
+
+  nav{
+      text-align: center;
+      font-size: 18px;
   }
-  header #photo:hover {
-    border: 4px solid #ffad04;
+  nav ul{
+    display: inline-block;
+    margin: 0 auto;
+    height: 80px;
   }
-  header h1,
-  header h2 {
-    color: #fff;
+  nav ul li{ 
+    display: inline-block;
+   
   }
-  header nav {
-    background-color: #575757;
-    bottom: -1px;
-    padding-top: 5px;
-    position: absolute;
-    text-align: left;
-    vertical-align: bottom;
-    width: 100%;
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    line-height: 70px;
   }
-  header nav h2 {
+  nav ul li a:hover{
+    color: #0096FF;
+  }
+  nav ul li{
+    vertical-align: top;
+    width: 115px;
+    margin: 0 10px;
+  }
+  #menu{
     display: none;
   }
-  header nav #menu {
-    display: none;
-  }
-  header nav #logo {
-    background: url("../Images/Logo.png");
+  #icon{
+    background: url("../Images/logo.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    display: inline-block;
     height: 50px;
-    left: 10px;
     position: absolute;
-    top: 10px;
+    left: 3%;
+    top: 14%;
     width: 50px;
   }
-  header nav ul {
-    display: inline;
-    float: right;
-    list-style: none;
-    margin: 0px;
-    margin-right: 20px;
-    padding: 0px;
-  }
-  header nav ul li {
-    border-bottom: 2px solid #575757;
-    display: inline-block;
-    margin: 30px 7px 0px 0px;
-    padding-bottom: 8px;
-  }
-  header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    width: 100%;
-  }
-  header nav ul li:hover {
-    border-bottom: 2px solid #fff;
+  #logo{
+    display: none;
   }
   main {
-    background: rgba(155,155,155,0.67);
-    padding: 30px 0px;
+    background: rgba(105,105,105,0.90);
+    padding: 100px 0 30px 0;
     width: 100%;
   }
-  main #sobremi {
-    background: #262721 url("../Images/imagen.png");
-    background-position: 15px 10px;
+  #titulo{
+    background: url("../Images/titulo.png");
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-size: 32% 54%;
-    border: 7px solid #00a9ff;
+    width: 90%;
+    height: 62px;
+    margin: 0 auto; 
+  }
+  main #sobremi {
+    background: url("../Images/polaroid.png");
+    background-position: 13px 45px;
+    background-repeat: no-repeat;
+    background-size: 35% 53%;
     margin: 30px auto;
     padding: 5px;
     text-align: justify;
@@ -474,13 +453,12 @@
     width: 61%;
   }
   main #sobremi h3 {
-    color: #00a9ff;
+    color: #0057E6;
     font-size: 23px;
     margin: 10px 0 0 37%;
   }
   main #sobremi p{
-    color: #fff;
-    font-size: 17px;
+    font-size: 19px;
     margin: 5px 0 10px 37%;
   }
   main #sobremi #bajo,
@@ -519,9 +497,6 @@ main #practicas {
     text-decoration: underline;
     color: #fff;
   }
-  main #sobremi:hover, main #practicas:hover{
-    border: 7px solid #ffad04;
-  }
 
   main #tabs div span {
     color: #fff;
@@ -530,6 +505,14 @@ main #practicas {
   main section {
     margin: 50px auto;
     width: 625px;
+  }
+  #comp{
+    background: url("../Images/comp.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 62px;
+    margin: 0 auto; 
   }
   main section article {
     display: inline-table;
@@ -750,109 +733,90 @@ main #practicas {
     height: 100%;
     width: 100%;
   }
-  header {
-    background: url("../Images/header.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    height: 100%;
-    padding-top: 1px;
-    text-align: center;
+  header{
+    background-color: #232323;
+    height: 70px;
     width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 1;
   }
-  header #photo {
-    background: url("../Images/photo.JPG");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border: 4px solid #fff;
-    border-radius: 100%;
-    height: 200px;
-    margin: 45px auto;
-    width: 200px;
+
+  nav{
+      text-align: center;
+      font-size: 18px;
   }
-  header #photo:hover {
-    border: 4px solid #ffad04;
-  }
-  header h1,
-  header h2 {
-    color: #fff;
-  }
-  header nav {
-    background-color: #575757;
-    bottom: -1px;
-    position: absolute;
-    vertical-align: bottom;
-    padding-top: 5px;
-    text-align: left;
-    width: 100%;
-  }
-  header nav h2 {
-    display: none;
-  }
-  header nav #menu {
-    display: none;
-  }
-  header nav #logo {
-    background: url("../Images/Logo.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 50px;
-    left: 10px;
-    position: absolute;
-    top: 10px;
-    width: 50px;
-  }
-  header nav ul {
-    display: inline;
-    float: right;
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-  }
-  header nav ul li {
-    border-bottom: 2px solid #575757;
+  nav ul{
+    
     display: inline-block;
-    margin: 30px 20px 0px 0px;
-    padding-bottom: 8px;
+    margin: 0 auto;
+    height: 80px;
+    padding: 0;
   }
-  header nav ul li a {
-    color: #fff;
+  nav ul li{ 
+    display: inline-block;
+   
+  }
+  nav ul li a {
     text-decoration: none;
-    width: 100%;
+    color: white;
+    line-height: 70px;
   }
-  header nav ul li:hover {
-    border-bottom: 2px solid #fff;
+  nav ul li a:hover{
+    color: #0096FF;
+  }
+  nav ul li{
+    vertical-align: top;
+    width: 115px;
+    margin: 0 10px;
+  }
+  #menu{
+    display: none;
+  }
+  #icon{
+    display: none;
+  }
+  #logo{
+    background: url("../Images/logo.png") no-repeat;
+    background-size: 100%;
+    width: 100px; 
+    height: 100px;
   }
   main {
-    background: rgba(155,155,155,0.67);
-    padding: 30px 0px;
+    background: rgba(105,105,105,0.90);
+    padding: 90px 0 50px 0;
     width: 100%;
   }
   main #sobremi {
-    background: #262721 url("../Images/imagen.png");
+    background: url("../Images/polaroid.png");
     background-repeat: no-repeat;
-    background-size: 38% 94%;
-    background-position: 10px 10px;
-    border: 7px solid #00a9ff;
-    margin: 30px auto;
+    background-size: 39% 91%;
+    background-position: 34px 50px;
+    margin: 18px auto 45px auto;
     padding: 5px;
     text-align: justify;
-    width: 800px;
+    width: 900px;
   }
   main #sobremi h3,
   main #sobremi p,
   main #sobremi ul {
     width: 50%;
   }
+  #titulo{
+    background: url("../Images/titulo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 62px;
+    margin: 0 auto; 
+  }
   main #sobremi h3 {
     margin: 10px 5px 0 45%;
-    color: #00a9ff;
+    color: #0057E6;
     font-size: 23px;
   }
   main #sobremi p {
-    color: #fff;
-    font-size: 17px;
+    font-size: 19px;
     margin: 5px 5px 10px 45%;
   }
   
@@ -887,17 +851,21 @@ main #practicas {
     text-decoration: underline;
     color: #fff;
   }
-  main #sobremi:hover, main #practicas:hover{
-    border: 7px solid #ffad04;
-  }
-
   main #tabs div span {
     color: #fff;
     font-weight: bold;
   }
   main section {
-    margin: 50px auto;
+    margin: 30px auto;
     width: 939px;
+  }
+  #comp{
+    background: url("../Images/comp.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 62px;
+    margin: 0 auto; 
   }
   main section article {
     display: inline-table;
@@ -906,13 +874,13 @@ main #practicas {
   }
   main section article .image {
     border: 2px solid #fff;
-    height: 290px;
+    height: 270px;
     margin: auto;
     -webkit-transition: 0.6s;
     -moz-transition: 0.6s;
     -o-transition: 0.6s;
     transition: 0.6s;
-    width: 290px;
+    width: 270px;
   }
   main section article .image .alpha {
     height: 100%;
@@ -1103,4 +1071,8 @@ main #practicas {
     margin: 100px auto;
     width: 900px;
   }
+  .divtabs{
+    height: 450px;
+  }
 }
+
