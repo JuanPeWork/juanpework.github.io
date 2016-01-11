@@ -61,7 +61,7 @@
     width: 40px;
   }
   #icon{
-    background: url("../Images/logo.png");
+    background: url("../Images/Logo.png");
     background-size: 100%;
     background-repeat: no-repeat;
     display: inline-block;
@@ -411,7 +411,7 @@
     display: none;
   }
   #icon{
-    background: url("../Images/logo.png");
+    background: url("../Images/Logo.png");
     background-size: 100%;
     background-repeat: no-repeat;
     display: inline-block;
@@ -777,7 +777,7 @@ main #practicas {
     display: none;
   }
   #logo{
-    background: url("../Images/logo.png") no-repeat;
+    background: url("../Images/Logo.png") no-repeat;
     background-size: 100%;
     width: 100px; 
     height: 100px;
