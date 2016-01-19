@@ -318,14 +318,14 @@
     background-color: #393939;
     margin: 75px auto 20px;
     padding: 10px;
-    width: 70%;
+    width: 90%;
   }
   form input,
   form label,
   form textarea {
     display: block;
     margin: 10px auto;
-    width: 50%;
+    width: 75%;
   }
   form label {
     color: #fff;
